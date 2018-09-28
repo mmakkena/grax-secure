@@ -1,0 +1,75 @@
+{
+  "name": "GRAX",
+  "description": "GRAX Enterprise : Salesforce Data Lake",
+  "repository": "https://github.com/HardingPoint/grax.git",
+  "website": "https://grax.io",
+  "keywords": ["grax","grax.io","salesforce","elastic","S3"],
+  "addons": [
+    {
+      "plan": "bonsai:sandbox-6",
+      "as": "BONSAI"
+    },
+    {
+      "plan": "engagementgraph:hpt-test",
+      "as": "ENGAGEMENTGRAPH"
+    },
+    {
+      "plan": "scheduler:standard",
+      "as": "SCHEDULER"
+    }
+  ],
+  "env": {
+    "GRAX_SFDC_USERNAME":{
+      "description": "Salesforce Username",
+      "value": "CHANGE-AFTER-INSTALL"
+    },
+    "GRAX_SFDC_PASSWORD":{
+      "description": "Salesforce Password",
+      "value": "CHANGE-AFTER-INSTALL"
+    },
+    "GRAX_SFDC_TOKEN":{
+      "description": "Salesforce Token",
+      "value": "CHANGE-AFTER-INSTALL"
+    },
+    "GRAX_SFDC_URL":{
+      "description": "Salesforce URL",
+      "value": "https://test.salesforce.com"
+    },
+    "DEBUGGING": {
+      "description": "Debugging Flag - Only Turn Off when absolutely needed",
+      "value": "true"
+    },
+    "S3ACCESSKEYID":{
+      "description": "S3 Access KeyID",
+      "value": "CHANGE-AFTER-INSTALL"
+    },
+    "S3BUCKET":{
+      "description": "S3 Access KeyID",
+      "value": "CHANGE-AFTER-INSTALL"
+    },
+    "S3REGION":{
+      "description": "S3 Access KeyID",
+      "value": "CHANGE-AFTER-INSTALL"
+    },
+    "S3SECRETACCESSKEY":{
+      "description": "S3 Access KeyID",
+      "value": "CHANGE-AFTER-INSTALL"
+    },
+    "GRAX_ASYNCH_TIMER":{
+      "description": "Asynchronous Timer Interval",
+      "value": "10"
+    },
+    "GRAX_ESMAXBULK":{
+      "description": "Elastic Bulk Loading",
+      "value": "300"
+    },
+    "GRAX_S3_OFF":{
+      "description": "Turn off S3 Saving, be very careful. Leave ON.",
+      "value": "false"
+    },
+    "GRAX_AUDITTRAIL_OFF":{
+      "description": "Turn off GRAX AuditTrail to Postgres. Leave OFF.",
+      "value": "true"
+    }
+  }
+}
