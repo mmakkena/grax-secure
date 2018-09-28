@@ -2,7 +2,7 @@
 
 Deploy this App directly from the GRAX for Salesforce
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://www.heroku.com/deploy/?template=https://github.com/HardingPoint/grax)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://www.heroku.com/deploy/?template=https://github.com/HardingPoint/grax-secure)
 	
 	
 	
