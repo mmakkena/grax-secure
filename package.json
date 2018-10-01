@@ -1,7 +1,7 @@
 {
   "name": "grax",
-  "version": "1.0.0",
-  "description": "GRAX",
+  "version": "3.2.1",
+  "description": "GRAX : Data Lake, Time Machine, and AWS Data Bridge",
   "main": "index.js",
   "directories": {
     "lib": "lib",
