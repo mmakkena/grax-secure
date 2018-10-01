@@ -1,6 +1,6 @@
 {
   "name": "grax",
-  "version": "3.2.3",
+  "version": "3.2.4",
   "description": "GRAX : Data Lake, Time Machine, and AWS Data Bridge",
   "main": "index.js",
   "directories": {
@@ -9,12 +9,13 @@
   },
   "scripts": {
     "test": "mocha --exit --timeout 100000",
-    "clean": "rm -rf ../grax-secure/*.js && rm -rf ./docs/*.*",
+    "clean": "rm -rf ../grax-secure/*.js",
     "secure": "grunt copy && grunt obfuscator",
     "testsecure": "cd ../grax-secure && npm install && npm run test",
+    "documentation": "rm -rf ./docs/*.* && grunt documentation",
     "cover": "istanbul cover _mocha",
     "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls",
-    "build": "npm install && npm audit fix && nsp check && npm run coveralls && npm run clean && grunt documentation && npm run secure && npm run testsecure"
+    "build": "npm install && npm audit fix && nsp check && npm run clean && npm run documentation && npm run coveralls && npm run secure && npm run testsecure"
   },
   "repository": {
     "type": "git",
