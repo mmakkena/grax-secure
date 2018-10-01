@@ -1,6 +1,6 @@
 {
   "name": "grax",
-  "version": "3.2.4",
+  "version": "3.2.5",
   "description": "GRAX : Data Lake, Time Machine, and AWS Data Bridge",
   "main": "index.js",
   "directories": {
@@ -64,6 +64,7 @@
     "morgan": "1.9.1",
     "node-schedule": "1.3.0",
     "path": "0.12.7",
+    "path-to-regexp": "2.4.0",
     "pg": "^7.4.3",
     "pg-promise": "8.4.6",
     "pug": "2.0.3",
@@ -71,7 +72,8 @@
     "s3-upload-stream": "^1.0.7",
     "sleep": "5.2.3",
     "unzipper": "0.9.3",
-    "uuid": "^3.3.2"
+    "uuid": "^3.3.2",
+    "xmlbuilder": "10.0.0"
   },
   "devDependencies": {
     "coveralls": "^3.0.2",
