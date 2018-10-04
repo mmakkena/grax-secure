@@ -9,6 +9,18 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+applicationservers/salesforce/grax-salesforce/.sfdx/
+applicationservers/salesforce/grax-salesforce/.DS_Store/
+applicationservers/salesforce/grax-salesforce/.sfdx/
+applicationservers/salesforce/grax-salesforce/.project/
+applicationservers/salesforce/grax-salesforce/.salesforce/
+applicationservers/salesforce/grax-salesforce/.settings/
+applicationservers/salesforce/grax-salesforce/node_modules/
+applicationservers/salesforce/grax-salesforce/.idea/
+applicationservers/salesforce/grax-salesforce/.vscode/
+applicationservers/salesforce/grax-salesforce/.directory/
+applicationservers/salesforce/grax-salesforce/GRAXConnect/main/default/profiles
+
 # Runtime data
 pids
 *.pid

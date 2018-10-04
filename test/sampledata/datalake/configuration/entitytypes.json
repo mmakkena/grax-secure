@@ -1,0 +1,4139 @@
+{
+  "graxgrax_data_record_id__cindex": {
+    "Id": {
+      "type": "Edm.String"
+    },
+    "graxid": {
+      "type": "Edm.String",
+      "key": "true"
+    },
+    "graxorgid": {
+      "type": "Edm.String"
+    },
+    "CreatedById": {
+      "type": "Edm.String"
+    },
+    "CreatedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "Error_Description__c": {
+      "type": "Edm.String"
+    },
+    "Execution_Unique_Key__c": {
+      "type": "Edm.String"
+    },
+    "GRAXCompanyName": {
+      "type": "Edm.String"
+    },
+    "GRAX_Data_Record__c": {
+      "type": "Edm.String"
+    },
+    "IsDeleted": {
+      "type": "Edm.Boolean"
+    },
+    "IsLocked": {
+      "type": "Edm.Boolean"
+    },
+    "LastModifiedById": {
+      "type": "Edm.String"
+    },
+    "LastModifiedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "MayEdit": {
+      "type": "Edm.Boolean"
+    },
+    "Name": {
+      "type": "Edm.String"
+    },
+    "Processed_Child_Index__c": {
+      "type": "Edm.Int64"
+    },
+    "SFDC_Id__c": {
+      "type": "Edm.String"
+    },
+    "Status__c": {
+      "type": "Edm.String"
+    },
+    "SystemModstamp": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "grax_CreatedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_GRAX_Data_Record__r_Name": {
+      "type": "Edm.String"
+    },
+    "grax_LastModifiedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_grax_data_record_id__c_name": {
+      "type": "Edm.String"
+    },
+    "grax_grax_data_record_id__c_xf": {
+      "type": "Edm.String"
+    },
+    "grax_xf": {
+      "type": "Edm.String"
+    }
+  },
+  "graxtaskindex": {
+    "Id": {
+      "type": "Edm.String"
+    },
+    "graxid": {
+      "type": "Edm.String",
+      "key": "true"
+    },
+    "graxorgid": {
+      "type": "Edm.String"
+    },
+    "AccountId": {
+      "type": "Edm.String"
+    },
+    "AccountId_grax_xf_account": {
+      "type": "Edm.String"
+    },
+    "ActivityDate": {
+      "type": "Edm.Date"
+    },
+    "ActivityOriginType": {
+      "type": "Edm.String"
+    },
+    "CallDisposition": {
+      "type": "Edm.String"
+    },
+    "CallDurationInSeconds": {
+      "type": "Edm.Int64"
+    },
+    "CallObject": {
+      "type": "Edm.String"
+    },
+    "CallType": {
+      "type": "Edm.String"
+    },
+    "CreatedById": {
+      "type": "Edm.String"
+    },
+    "CreatedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "CreatedDate__c": {
+      "type": "Edm.Date"
+    },
+    "DB_Days__c": {
+      "type": "Edm.Int64"
+    },
+    "Description": {
+      "type": "Edm.String"
+    },
+    "DueDate": {
+      "type": "Edm.Date"
+    },
+    "External_ID__c": {
+      "type": "Edm.String"
+    },
+    "FSL__Count_of_Events__c": {
+      "type": "Edm.Int64"
+    },
+    "FSL__Count_of_Tasks__c": {
+      "type": "Edm.Int64"
+    },
+    "GRAXCompanyName": {
+      "type": "Edm.String"
+    },
+    "IsArchived": {
+      "type": "Edm.Boolean"
+    },
+    "IsClosed": {
+      "type": "Edm.Boolean"
+    },
+    "IsDeleted": {
+      "type": "Edm.Boolean"
+    },
+    "IsHighPriority": {
+      "type": "Edm.Boolean"
+    },
+    "IsRecurrence": {
+      "type": "Edm.Boolean"
+    },
+    "IsReminderSet": {
+      "type": "Edm.Boolean"
+    },
+    "IsVisibleInSelfService": {
+      "type": "Edm.Boolean"
+    },
+    "LastModifiedById": {
+      "type": "Edm.String"
+    },
+    "LastModifiedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "LastModifiedDate__c": {
+      "type": "Edm.Date"
+    },
+    "OwnerId": {
+      "type": "Edm.String"
+    },
+    "Priority": {
+      "type": "Edm.String"
+    },
+    "RecordTypeId": {
+      "type": "Edm.String"
+    },
+    "ReminderDateTime": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "Status": {
+      "type": "Edm.String"
+    },
+    "Subject": {
+      "type": "Edm.String"
+    },
+    "SystemModstamp": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "TaskSubtype": {
+      "type": "Edm.String"
+    },
+    "Type": {
+      "type": "Edm.String"
+    },
+    "Type__c": {
+      "type": "Edm.String"
+    },
+    "WhatCount": {
+      "type": "Edm.Int64"
+    },
+    "WhatId": {
+      "type": "Edm.String"
+    },
+    "WhoCount": {
+      "type": "Edm.Int64"
+    },
+    "WhoId": {
+      "type": "Edm.String"
+    },
+    "analyticsdemo_batch_id__c": {
+      "type": "Edm.String"
+    },
+    "grax_Account_Name": {
+      "type": "Edm.String"
+    },
+    "grax_CreatedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_LastModifiedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Owner_Name": {
+      "type": "Edm.String"
+    },
+    "grax_RecordType_Name": {
+      "type": "Edm.String"
+    },
+    "grax_What_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Who_Name": {
+      "type": "Edm.String"
+    },
+    "grax_account_xf": {
+      "type": "Edm.String"
+    },
+    "grax_task_xf": {
+      "type": "Edm.String"
+    },
+    "grax_xf": {
+      "type": "Edm.String"
+    }
+  },
+  "graxaccountindex": {
+    "Id": {
+      "type": "Edm.String"
+    },
+    "graxid": {
+      "type": "Edm.String",
+      "key": "true"
+    },
+    "graxorgid": {
+      "type": "Edm.String"
+    },
+    "AccountNumber": {
+      "type": "Edm.String"
+    },
+    "AccountSource": {
+      "type": "Edm.String"
+    },
+    "Account_Date_Field__c": {
+      "type": "Edm.Date"
+    },
+    "Account_Location__c": {
+      "type": "Edm.String"
+    },
+    "Account_Priority__c": {
+      "type": "Edm.String"
+    },
+    "Account_Status__c": {
+      "type": "Edm.String"
+    },
+    "ActiveLiveAgentUser__pc": {
+      "type": "Edm.Boolean"
+    },
+    "Active__c": {
+      "type": "Edm.String"
+    },
+    "Activity_Indicator__pc": {
+      "type": "Edm.String"
+    },
+    "Activity_Indicator_partner__pc": {
+      "type": "Edm.String"
+    },
+    "AnnualRevenue": {
+      "type": "Edm.Int64"
+    },
+    "Annual_Income__c": {
+      "type": "Edm.Int64"
+    },
+    "Application_Date__c": {
+      "type": "Edm.Date"
+    },
+    "BillingCity": {
+      "type": "Edm.String"
+    },
+    "BillingCountry": {
+      "type": "Edm.String"
+    },
+    "BillingPostalCode": {
+      "type": "Edm.String"
+    },
+    "BillingState": {
+      "type": "Edm.String"
+    },
+    "BillingStreet": {
+      "type": "Edm.String"
+    },
+    "Business_Family_Members_Data__c": {
+      "type": "Edm.Int64"
+    },
+    "Buying_Relationship__c": {
+      "type": "Edm.String"
+    },
+    "CleanStatus": {
+      "type": "Edm.String"
+    },
+    "Closed_Lost_Opptys__c": {
+      "type": "Edm.Int64"
+    },
+    "Closed_Won_Opptys__c": {
+      "type": "Edm.Int64"
+    },
+    "Closed_Won_Value__c": {
+      "type": "Edm.Int64"
+    },
+    "CompareName": {
+      "type": "Edm.String"
+    },
+    "CompareSite": {
+      "type": "Edm.String"
+    },
+    "Competitive_Certifications__c": {
+      "type": "Edm.String"
+    },
+    "Contact_Location__pc": {
+      "type": "Edm.String"
+    },
+    "Contract_Signed__c": {
+      "type": "Edm.Boolean"
+    },
+    "CreatedById": {
+      "type": "Edm.String"
+    },
+    "CreatedById_grax_xf_user": {
+      "type": "Edm.String"
+    },
+    "CreatedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "CreatedDate__c": {
+      "type": "Edm.Date"
+    },
+    "Current_Year_Revenue_Goal__c": {
+      "type": "Edm.Int64"
+    },
+    "Current_Year_Target__c": {
+      "type": "Edm.Int64"
+    },
+    "Custom_Contact_Date__pc": {
+      "type": "Edm.Date"
+    },
+    "CustomerPriority__c": {
+      "type": "Edm.String"
+    },
+    "Customer_Account__c": {
+      "type": "Edm.String"
+    },
+    "Customer_Satisfaction_Index__c": {
+      "type": "Edm.String"
+    },
+    "Customer_Value__c": {
+      "type": "Edm.String"
+    },
+    "DandbCompanyId": {
+      "type": "Edm.String"
+    },
+    "DandbCompanyId_grax_xf_dandbcompany": {
+      "type": "Edm.String"
+    },
+    "Days_Since_Activity__c": {
+      "type": "Edm.Int64"
+    },
+    "Default_Field_Entitlement__c": {
+      "type": "Edm.String"
+    },
+    "Default_Field_Entitlement__c_grax_xf_entitlement": {
+      "type": "Edm.String"
+    },
+    "Default_Price_Book__c": {
+      "type": "Edm.String"
+    },
+    "Default_Price_Book__c_grax_xf_pricebook2": {
+      "type": "Edm.String"
+    },
+    "Delinquency_Risk_Data__c": {
+      "type": "Edm.String"
+    },
+    "Description": {
+      "type": "Edm.String"
+    },
+    "DunsNumber": {
+      "type": "Edm.String"
+    },
+    "EDY_ORGCUSTOM__DB__c": {
+      "type": "Edm.Boolean"
+    },
+    "EDY_ORGCUSTOM__DB__pc": {
+      "type": "Edm.Boolean"
+    },
+    "EDY_ORGCUSTOM__Old_Name__c": {
+      "type": "Edm.String"
+    },
+    "Einstein_Account_Insights__c": {
+      "type": "Edm.String"
+    },
+    "Einstein_Article_1_Date__c": {
+      "type": "Edm.Date"
+    },
+    "Einstein_Article_1_Source__c": {
+      "type": "Edm.String"
+    },
+    "Einstein_Article_1_Title__c": {
+      "type": "Edm.String"
+    },
+    "Einstein_Article_1_URL__c": {
+      "type": "Edm.String"
+    },
+    "Einstein_Article_2_Date__c": {
+      "type": "Edm.Date"
+    },
+    "Einstein_Article_2_Source__c": {
+      "type": "Edm.String"
+    },
+    "Einstein_Article_2_Title__c": {
+      "type": "Edm.String"
+    },
+    "Einstein_Article_2_URL__c": {
+      "type": "Edm.String"
+    },
+    "Einstein_Article_3_Date__c": {
+      "type": "Edm.Date"
+    },
+    "Einstein_Article_3_Source__c": {
+      "type": "Edm.String"
+    },
+    "Einstein_Article_3_Title__c": {
+      "type": "Edm.String"
+    },
+    "Einstein_Article_3_URL__c": {
+      "type": "Edm.String"
+    },
+    "External_ID__c": {
+      "type": "Edm.String"
+    },
+    "External_ID__pc": {
+      "type": "Edm.String"
+    },
+    "Facebook_Persona_ID__pc": {
+      "type": "Edm.String"
+    },
+    "Facebook_Profile_Picture__pc": {
+      "type": "Edm.String"
+    },
+    "Fax": {
+      "type": "Edm.String"
+    },
+    "FirstName": {
+      "type": "Edm.String"
+    },
+    "GRAXCompanyName": {
+      "type": "Edm.String"
+    },
+    "Global_Business_Name_Data__c": {
+      "type": "Edm.String"
+    },
+    "Global_Ultimate_D_U_N_S_Number__c": {
+      "type": "Edm.String"
+    },
+    "Goal_Attainment__c": {
+      "type": "Edm.Int64"
+    },
+    "Industry": {
+      "type": "Edm.String"
+    },
+    "IsCustomerPortal": {
+      "type": "Edm.Boolean"
+    },
+    "IsDeleted": {
+      "type": "Edm.Boolean"
+    },
+    "IsExcludedFromRealign": {
+      "type": "Edm.Boolean"
+    },
+    "IsLocked": {
+      "type": "Edm.Boolean"
+    },
+    "IsPartner": {
+      "type": "Edm.Boolean"
+    },
+    "IsPersonAccount": {
+      "type": "Edm.Boolean"
+    },
+    "Jigsaw": {
+      "type": "Edm.String"
+    },
+    "JigsawCompanyId": {
+      "type": "Edm.String"
+    },
+    "Klout_Score__pc": {
+      "type": "Edm.Int64"
+    },
+    "LastActivityDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "LastModifiedById": {
+      "type": "Edm.String"
+    },
+    "LastModifiedById_grax_xf_user": {
+      "type": "Edm.String"
+    },
+    "LastModifiedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "LastName": {
+      "type": "Edm.String"
+    },
+    "LastReferencedDate": {
+      "type": "Edm.Date"
+    },
+    "LastViewedDate": {
+      "type": "Edm.Date"
+    },
+    "Last_Year_Revenue_Generated__c": {
+      "type": "Edm.Int64"
+    },
+    "Latitude__c": {
+      "type": "Edm.String"
+    },
+    "Lead_Conversion_Rate__c": {
+      "type": "Edm.Int64"
+    },
+    "Lead_To_Opportunity_Close_Rate__c": {
+      "type": "Edm.Int64"
+    },
+    "Liabilities__c": {
+      "type": "Edm.Int64"
+    },
+    "LongID__c": {
+      "type": "Edm.String"
+    },
+    "Longitude__c": {
+      "type": "Edm.String"
+    },
+    "Map_the_Account__c": {
+      "type": "Edm.String"
+    },
+    "MayEdit": {
+      "type": "Edm.Boolean"
+    },
+    "NaicsCode": {
+      "type": "Edm.String"
+    },
+    "NaicsDesc": {
+      "type": "Edm.String"
+    },
+    "Name": {
+      "type": "Edm.String"
+    },
+    "Net_Worth__c": {
+      "type": "Edm.Int64"
+    },
+    "NumberOfEmployees": {
+      "type": "Edm.Int64"
+    },
+    "Number_Closed_Lost_Opportunities__c": {
+      "type": "Edm.Int64"
+    },
+    "Number_Closed_Opportunities__c": {
+      "type": "Edm.Int64"
+    },
+    "Number_Closed_Won_Opportunities__c": {
+      "type": "Edm.Int64"
+    },
+    "Number_Leads_Active__c": {
+      "type": "Edm.Int64"
+    },
+    "Number_Leads_Converted__c": {
+      "type": "Edm.Int64"
+    },
+    "Number_Leads_Total__c": {
+      "type": "Edm.Int64"
+    },
+    "Number_Open_Opportunities__c": {
+      "type": "Edm.Int64"
+    },
+    "Number_of_Employees_Location_Data__c": {
+      "type": "Edm.Int64"
+    },
+    "NumberofLocations__c": {
+      "type": "Edm.Int64"
+    },
+    "Open_Address_in_Google_Maps__pc": {
+      "type": "Edm.String"
+    },
+    "Open_Oppty_Value__c": {
+      "type": "Edm.Int64"
+    },
+    "Open_Opptys__c": {
+      "type": "Edm.Int64"
+    },
+    "Open_vs_Closed_Opportunities__c": {
+      "type": "Edm.String"
+    },
+    "Open_vs_Closed_Won_Opportunities__c": {
+      "type": "Edm.String"
+    },
+    "Operating_Hours__c": {
+      "type": "Edm.String"
+    },
+    "Operating_Hours__c_grax_xf_operatinghours": {
+      "type": "Edm.String"
+    },
+    "Opportunity_Win_Rate__c": {
+      "type": "Edm.Int64"
+    },
+    "Other_Income__c": {
+      "type": "Edm.Int64"
+    },
+    "Overdue_Invoice_Revenue__c": {
+      "type": "Edm.Int64"
+    },
+    "Overdue_Invoices__c": {
+      "type": "Edm.Int64"
+    },
+    "OwnerAlias": {
+      "type": "Edm.String"
+    },
+    "OwnerId": {
+      "type": "Edm.String"
+    },
+    "OwnerId_grax_xf_user": {
+      "type": "Edm.String"
+    },
+    "Ownership": {
+      "type": "Edm.String"
+    },
+    "ParentId": {
+      "type": "Edm.String"
+    },
+    "ParentId_grax_xf_account": {
+      "type": "Edm.String"
+    },
+    "Partner_Certification__c": {
+      "type": "Edm.String"
+    },
+    "Partner_Geographic_Coverage__c": {
+      "type": "Edm.String"
+    },
+    "Partner_Program_Level__c": {
+      "type": "Edm.String"
+    },
+    "Partner_Type__c": {
+      "type": "Edm.String"
+    },
+    "Partnership_Status__c": {
+      "type": "Edm.String"
+    },
+    "Percent_Won__c": {
+      "type": "Edm.Int64"
+    },
+    "PersonAssistantPhone": {
+      "type": "Edm.String"
+    },
+    "PersonBirthdate": {
+      "type": "Edm.Date"
+    },
+    "PersonContactId": {
+      "type": "Edm.String"
+    },
+    "PersonContactId_grax_xf_contact": {
+      "type": "Edm.String"
+    },
+    "PersonDepartment": {
+      "type": "Edm.String"
+    },
+    "PersonDoNotCall": {
+      "type": "Edm.Boolean"
+    },
+    "PersonEmail": {
+      "type": "Edm.String"
+    },
+    "PersonHasOptedOutOfEmail": {
+      "type": "Edm.Boolean"
+    },
+    "PersonHasOptedOutOfFax": {
+      "type": "Edm.Boolean"
+    },
+    "PersonLeadSource": {
+      "type": "Edm.String"
+    },
+    "PersonMailingCity": {
+      "type": "Edm.String"
+    },
+    "PersonMailingCountry": {
+      "type": "Edm.String"
+    },
+    "PersonMailingPostalCode": {
+      "type": "Edm.String"
+    },
+    "PersonMailingState": {
+      "type": "Edm.String"
+    },
+    "PersonMailingStreet": {
+      "type": "Edm.String"
+    },
+    "PersonMobilePhone": {
+      "type": "Edm.String"
+    },
+    "PersonOtherCity": {
+      "type": "Edm.String"
+    },
+    "PersonOtherCountry": {
+      "type": "Edm.String"
+    },
+    "PersonOtherPhone": {
+      "type": "Edm.String"
+    },
+    "PersonOtherPostalCode": {
+      "type": "Edm.String"
+    },
+    "PersonOtherState": {
+      "type": "Edm.String"
+    },
+    "PersonOtherStreet": {
+      "type": "Edm.String"
+    },
+    "PersonTitle": {
+      "type": "Edm.String"
+    },
+    "Personal_Assets__c": {
+      "type": "Edm.Int64"
+    },
+    "Phone": {
+      "type": "Edm.String"
+    },
+    "PhotoUrl": {
+      "type": "Edm.String"
+    },
+    "Programs__c": {
+      "type": "Edm.String"
+    },
+    "Rating": {
+      "type": "Edm.String"
+    },
+    "Rating_Indicator__c": {
+      "type": "Edm.String"
+    },
+    "RecordTypeId": {
+      "type": "Edm.String"
+    },
+    "RecordTypeId_grax_xf_recordtype": {
+      "type": "Edm.String"
+    },
+    "Region__c": {
+      "type": "Edm.String"
+    },
+    "SLAExpirationDate__c": {
+      "type": "Edm.Date"
+    },
+    "SLASerialNumber__c": {
+      "type": "Edm.String"
+    },
+    "SLA__c": {
+      "type": "Edm.String"
+    },
+    "SSP_User__pc": {
+      "type": "Edm.Boolean"
+    },
+    "Salutation": {
+      "type": "Edm.String"
+    },
+    "Scorecard_Last_Updated__c": {
+      "type": "Edm.Date"
+    },
+    "Service_Territory__c": {
+      "type": "Edm.String"
+    },
+    "Service_Territory__c_grax_xf_serviceterritory": {
+      "type": "Edm.String"
+    },
+    "ShippingCity": {
+      "type": "Edm.String"
+    },
+    "ShippingCountry": {
+      "type": "Edm.String"
+    },
+    "ShippingPostalCode": {
+      "type": "Edm.String"
+    },
+    "ShippingState": {
+      "type": "Edm.String"
+    },
+    "ShippingStreet": {
+      "type": "Edm.String"
+    },
+    "Show_Partner_Users__c": {
+      "type": "Edm.String"
+    },
+    "Show_on_Checkin_Map__c": {
+      "type": "Edm.Boolean"
+    },
+    "Sic": {
+      "type": "Edm.String"
+    },
+    "SicDesc": {
+      "type": "Edm.String"
+    },
+    "Site": {
+      "type": "Edm.String"
+    },
+    "SlickSidebar_AccountAddress__pc": {
+      "type": "Edm.String"
+    },
+    "SystemModstamp": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "TickerSymbol": {
+      "type": "Edm.String"
+    },
+    "Total_of_Activities__pc": {
+      "type": "Edm.Int64"
+    },
+    "Tradestyle": {
+      "type": "Edm.String"
+    },
+    "Twitter_Persona_ID__pc": {
+      "type": "Edm.String"
+    },
+    "Type": {
+      "type": "Edm.String"
+    },
+    "URLsrc__pc": {
+      "type": "Edm.String"
+    },
+    "UpsellOpportunity__c": {
+      "type": "Edm.String"
+    },
+    "Value_Closed_Won_Opportunties__c": {
+      "type": "Edm.Int64"
+    },
+    "Value_Open_Opportunties__c": {
+      "type": "Edm.Int64"
+    },
+    "Value__c": {
+      "type": "Edm.Int64"
+    },
+    "Vertical_Coverage__c": {
+      "type": "Edm.String"
+    },
+    "Website": {
+      "type": "Edm.String"
+    },
+    "Win_Loss_Ratio__c": {
+      "type": "Edm.String"
+    },
+    "Work_Type__c": {
+      "type": "Edm.String"
+    },
+    "Work_Type__c_grax_xf_worktype": {
+      "type": "Edm.String"
+    },
+    "Work_Type_for_Quote_Creation__c": {
+      "type": "Edm.String"
+    },
+    "Work_Type_for_Quote_Creation__c_grax_xf_worktype": {
+      "type": "Edm.String"
+    },
+    "YTD_Revenue_Generated__c": {
+      "type": "Edm.Int64"
+    },
+    "YearStarted": {
+      "type": "Edm.String"
+    },
+    "analyticsdemo_batch_id__c": {
+      "type": "Edm.String"
+    },
+    "grax_CreatedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_DandbCompany_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Default_Field_Entitlement__r_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Default_Price_Book__r_Name": {
+      "type": "Edm.String"
+    },
+    "grax_LastModifiedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Operating_Hours__r_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Owner_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Parent_Name": {
+      "type": "Edm.String"
+    },
+    "grax_PersonContact_Name": {
+      "type": "Edm.String"
+    },
+    "grax_RecordType_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Service_Territory__r_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Work_Type__r_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Work_Type_for_Quote_Creation__r_Name": {
+      "type": "Edm.String"
+    },
+    "grax_account_name": {
+      "type": "Edm.String"
+    },
+    "grax_account_xf": {
+      "type": "Edm.String"
+    },
+    "grax_contact_xf": {
+      "type": "Edm.String"
+    },
+    "grax_dandbcompany_xf": {
+      "type": "Edm.String"
+    },
+    "grax_entitlement_xf": {
+      "type": "Edm.String"
+    },
+    "grax_operatinghours_xf": {
+      "type": "Edm.String"
+    },
+    "grax_pricebook2_xf": {
+      "type": "Edm.String"
+    },
+    "grax_recordtype_xf": {
+      "type": "Edm.String"
+    },
+    "grax_serviceterritory_xf": {
+      "type": "Edm.String"
+    },
+    "grax_user_xf": {
+      "type": "Edm.String"
+    },
+    "grax_worktype_xf": {
+      "type": "Edm.String"
+    },
+    "grax_xf": {
+      "type": "Edm.String"
+    },
+    "of_Reps_Trained__c": {
+      "type": "Edm.Int64"
+    },
+    "pi__Needs_Score_Synced__pc": {
+      "type": "Edm.Boolean"
+    },
+    "pi__pardot_hard_bounced__pc": {
+      "type": "Edm.Boolean"
+    }
+  },
+  "graxmeter_reading__cindex": {
+    "Id": {
+      "type": "Edm.String"
+    },
+    "graxid": {
+      "type": "Edm.String",
+      "key": "true"
+    },
+    "graxorgid": {
+      "type": "Edm.String"
+    },
+    "Account__c": {
+      "type": "Edm.String"
+    },
+    "Account__c_grax_xf_account": {
+      "type": "Edm.String"
+    },
+    "CreatedById": {
+      "type": "Edm.String"
+    },
+    "CreatedById_grax_xf_user": {
+      "type": "Edm.String"
+    },
+    "CreatedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "First_Reading_By_Reading_Time__c": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "GRAXCompanyName": {
+      "type": "Edm.String"
+    },
+    "IsDeleted": {
+      "type": "Edm.Boolean"
+    },
+    "IsLocked": {
+      "type": "Edm.Boolean"
+    },
+    "LastModifiedById": {
+      "type": "Edm.String"
+    },
+    "LastModifiedById_grax_xf_user": {
+      "type": "Edm.String"
+    },
+    "LastModifiedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "LastReferencedDate": {
+      "type": "Edm.Date"
+    },
+    "LastViewedDate": {
+      "type": "Edm.Date"
+    },
+    "Last_Reading_By_Reading_Time__c": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "MayEdit": {
+      "type": "Edm.Boolean"
+    },
+    "Name": {
+      "type": "Edm.String"
+    },
+    "Nbr_Of_Readings__c": {
+      "type": "Edm.Int64"
+    },
+    "Newest_By_Last_Modified_Date__c": {
+      "type": "Edm.Date"
+    },
+    "Of_Days_Between_Last_And_First_Reading__c": {
+      "type": "Edm.Int64"
+    },
+    "Oldest_Reading_By_Last_Modified_Date__c": {
+      "type": "Edm.Date"
+    },
+    "Reading_Date__c": {
+      "type": "Edm.Date"
+    },
+    "SystemModstamp": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "grax_Account__r_Name": {
+      "type": "Edm.String"
+    },
+    "grax_CreatedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_LastModifiedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_account_xf": {
+      "type": "Edm.String"
+    },
+    "grax_meter_reading__c_name": {
+      "type": "Edm.String"
+    },
+    "grax_meter_reading__c_xf": {
+      "type": "Edm.String"
+    },
+    "grax_user_xf": {
+      "type": "Edm.String"
+    },
+    "grax_xf": {
+      "type": "Edm.String"
+    }
+  },
+  "graxpermissionsetassignmentindex": {
+    "Id": {
+      "type": "Edm.String"
+    },
+    "graxid": {
+      "type": "Edm.String",
+      "key": "true"
+    },
+    "graxorgid": {
+      "type": "Edm.String"
+    },
+    "AssigneeId": {
+      "type": "Edm.String"
+    },
+    "GRAXCompanyName": {
+      "type": "Edm.String"
+    },
+    "PermissionSetId": {
+      "type": "Edm.String"
+    },
+    "SystemModstamp": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "grax_Assignee_Name": {
+      "type": "Edm.String"
+    },
+    "grax_PermissionSet_Name": {
+      "type": "Edm.String"
+    },
+    "grax_permissionsetassignment_xf": {
+      "type": "Edm.String"
+    },
+    "grax_xf": {
+      "type": "Edm.String"
+    }
+  },
+  "graxcontractindex": {
+    "Id": {
+      "type": "Edm.String"
+    },
+    "graxid": {
+      "type": "Edm.String",
+      "key": "true"
+    },
+    "graxorgid": {
+      "type": "Edm.String"
+    },
+    "AccountId": {
+      "type": "Edm.String"
+    },
+    "ContractNumber": {
+      "type": "Edm.String"
+    },
+    "ContractTerm": {
+      "type": "Edm.Int64"
+    },
+    "CreatedById": {
+      "type": "Edm.String"
+    },
+    "CreatedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "EndDate": {
+      "type": "Edm.Date"
+    },
+    "GRAXCompanyName": {
+      "type": "Edm.String"
+    },
+    "IsDeleted": {
+      "type": "Edm.Boolean"
+    },
+    "LastModifiedById": {
+      "type": "Edm.String"
+    },
+    "LastModifiedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "OwnerId": {
+      "type": "Edm.String"
+    },
+    "StartDate": {
+      "type": "Edm.Date"
+    },
+    "Status": {
+      "type": "Edm.String"
+    },
+    "StatusCode": {
+      "type": "Edm.String"
+    },
+    "SystemModstamp": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "grax_Account_Name": {
+      "type": "Edm.String"
+    },
+    "grax_CreatedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_LastModifiedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Owner_Name": {
+      "type": "Edm.String"
+    },
+    "grax_contract_xf": {
+      "type": "Edm.String"
+    },
+    "grax_xf": {
+      "type": "Edm.String"
+    }
+  },
+  "graxgrax_loggingindex": {
+    "Id": {
+      "type": "Edm.String"
+    },
+    "graxid": {
+      "type": "Edm.String",
+      "key": "true"
+    },
+    "graxorgid": {
+      "type": "Edm.String"
+    },
+    "CreatedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "error": {
+      "type": "Edm.String"
+    },
+    "info": {
+      "type": "Edm.String"
+    },
+    "modulename": {
+      "type": "Edm.String"
+    },
+    "package_name": {
+      "type": "Edm.String"
+    },
+    "package_version": {
+      "type": "Edm.String"
+    },
+    "source": {
+      "type": "Edm.String"
+    },
+    "stack": {
+      "type": "Edm.String"
+    }
+  },
+  "graxuserindex": {
+    "Id": {
+      "type": "Edm.String"
+    },
+    "graxid": {
+      "type": "Edm.String",
+      "key": "true"
+    },
+    "graxorgid": {
+      "type": "Edm.String"
+    },
+    "AccountId": {
+      "type": "Edm.String"
+    },
+    "Alias": {
+      "type": "Edm.String"
+    },
+    "BadgeText": {
+      "type": "Edm.String"
+    },
+    "BannerPhotoUrl": {
+      "type": "Edm.String"
+    },
+    "City": {
+      "type": "Edm.String"
+    },
+    "CommunityNickname": {
+      "type": "Edm.String"
+    },
+    "CompanyName": {
+      "type": "Edm.String"
+    },
+    "ContactId": {
+      "type": "Edm.String"
+    },
+    "Country": {
+      "type": "Edm.String"
+    },
+    "CreatedById": {
+      "type": "Edm.String"
+    },
+    "CreatedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "DefaultGroupNotificationFrequency": {
+      "type": "Edm.String"
+    },
+    "DigestFrequency": {
+      "type": "Edm.String"
+    },
+    "Email": {
+      "type": "Edm.String"
+    },
+    "EmailEncodingKey": {
+      "type": "Edm.String"
+    },
+    "EmailPreferencesAutoBcc": {
+      "type": "Edm.Boolean"
+    },
+    "EmailPreferencesAutoBccStayInTouch": {
+      "type": "Edm.Boolean"
+    },
+    "EmailPreferencesStayInTouchReminder": {
+      "type": "Edm.Boolean"
+    },
+    "Fax": {
+      "type": "Edm.String"
+    },
+    "FirstName": {
+      "type": "Edm.String"
+    },
+    "ForecastEnabled": {
+      "type": "Edm.Boolean"
+    },
+    "FullPhotoUrl": {
+      "type": "Edm.String"
+    },
+    "GRAXCompanyName": {
+      "type": "Edm.String"
+    },
+    "IsActive": {
+      "type": "Edm.Boolean"
+    },
+    "IsExtIndicatorVisible": {
+      "type": "Edm.Boolean"
+    },
+    "IsPortalEnabled": {
+      "type": "Edm.Boolean"
+    },
+    "IsPortalSelfRegistered": {
+      "type": "Edm.Boolean"
+    },
+    "IsProfilePhotoActive": {
+      "type": "Edm.Boolean"
+    },
+    "LanguageLocaleKey": {
+      "type": "Edm.String"
+    },
+    "LastModifiedById": {
+      "type": "Edm.String"
+    },
+    "LastModifiedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "LastName": {
+      "type": "Edm.String"
+    },
+    "LocaleSidKey": {
+      "type": "Edm.String"
+    },
+    "MediumBannerPhotoUrl": {
+      "type": "Edm.String"
+    },
+    "MediumPhotoUrl": {
+      "type": "Edm.String"
+    },
+    "Name": {
+      "type": "Edm.String"
+    },
+    "Phone": {
+      "type": "Edm.String"
+    },
+    "PostalCode": {
+      "type": "Edm.String"
+    },
+    "ProfileId": {
+      "type": "Edm.String"
+    },
+    "ReceivesAdminInfoEmails": {
+      "type": "Edm.Boolean"
+    },
+    "ReceivesInfoEmails": {
+      "type": "Edm.Boolean"
+    },
+    "SharingType": {
+      "type": "Edm.String"
+    },
+    "SmallBannerPhotoUrl": {
+      "type": "Edm.String"
+    },
+    "SmallPhotoUrl": {
+      "type": "Edm.String"
+    },
+    "State": {
+      "type": "Edm.String"
+    },
+    "Street": {
+      "type": "Edm.String"
+    },
+    "SystemModstamp": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "TimeZoneSidKey": {
+      "type": "Edm.String"
+    },
+    "Title": {
+      "type": "Edm.String"
+    },
+    "UserPermissionsAvantgoUser": {
+      "type": "Edm.Boolean"
+    },
+    "UserPermissionsCallCenterAutoLogin": {
+      "type": "Edm.Boolean"
+    },
+    "UserPermissionsInteractionUser": {
+      "type": "Edm.Boolean"
+    },
+    "UserPermissionsKnowledgeUser": {
+      "type": "Edm.Boolean"
+    },
+    "UserPermissionsMarketingUser": {
+      "type": "Edm.Boolean"
+    },
+    "UserPermissionsMobileUser": {
+      "type": "Edm.Boolean"
+    },
+    "UserPermissionsOfflineUser": {
+      "type": "Edm.Boolean"
+    },
+    "UserPermissionsSFContentUser": {
+      "type": "Edm.Boolean"
+    },
+    "UserPermissionsSupportUser": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesActivityRemindersPopup": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesApexPagesDeveloperMode": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesCacheDiagnostics": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesCreateLEXAppsWTShown": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesDisCommentAfterLikeEmail": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesDisMentionsCommentEmail": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesDisProfPostCommentEmail": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesDisableAllFeedsEmail": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesDisableBookmarkEmail": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesDisableChangeCommentEmail": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesDisableEndorsementEmail": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesDisableFileShareNotificationsForApi": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesDisableFollowersEmail": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesDisableLaterCommentEmail": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesDisableLikeEmail": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesDisableMentionsPostEmail": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesDisableMessageEmail": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesDisableProfilePostEmail": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesDisableSharePostEmail": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesEnableAutoSubForFeeds": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesEventRemindersCheckboxDefault": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesExcludeMailAppAttachments": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesFavoritesShowTopFavorites": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesFavoritesWTShown": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesGlobalNavBarWTShown": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesGlobalNavGridMenuWTShown": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesHasCelebrationBadge": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesHideBiggerPhotoCallout": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesHideCSNDesktopTask": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesHideCSNGetChatterMobileTask": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesHideChatterOnboardingSplash": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesHideEndUserOnboardingAssistantModal": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesHideLightningMigrationModal": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesHideS1BrowserUI": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesHideSecondChatterOnboardingSplash": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesHideSfxWelcomeMat": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesLightningExperiencePreferred": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesPathAssistantCollapsed": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesPreviewCustomTheme": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesPreviewLightning": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesRecordHomeReservedWTShown": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesRecordHomeSectionCollapseWTShown": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesReminderSoundOff": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesShowCityToExternalUsers": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesShowCityToGuestUsers": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesShowCountryToExternalUsers": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesShowCountryToGuestUsers": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesShowEmailToExternalUsers": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesShowEmailToGuestUsers": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesShowFaxToExternalUsers": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesShowFaxToGuestUsers": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesShowManagerToExternalUsers": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesShowManagerToGuestUsers": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesShowMobilePhoneToExternalUsers": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesShowMobilePhoneToGuestUsers": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesShowPostalCodeToExternalUsers": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesShowPostalCodeToGuestUsers": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesShowProfilePicToGuestUsers": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesShowStateToExternalUsers": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesShowStateToGuestUsers": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesShowStreetAddressToExternalUsers": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesShowStreetAddressToGuestUsers": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesShowTitleToExternalUsers": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesShowTitleToGuestUsers": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesShowWorkPhoneToExternalUsers": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesShowWorkPhoneToGuestUsers": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesSortFeedByComment": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesSuppressEventSFXReminders": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesSuppressTaskSFXReminders": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesTaskRemindersCheckboxDefault": {
+      "type": "Edm.Boolean"
+    },
+    "UserPreferencesUserDebugModePref": {
+      "type": "Edm.Boolean"
+    },
+    "UserType": {
+      "type": "Edm.String"
+    },
+    "Username": {
+      "type": "Edm.String"
+    },
+    "grax_Account_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Contact_Name": {
+      "type": "Edm.String"
+    },
+    "grax_CreatedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_LastModifiedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Profile_Name": {
+      "type": "Edm.String"
+    },
+    "grax_user_name": {
+      "type": "Edm.String"
+    },
+    "grax_user_xf": {
+      "type": "Edm.String"
+    },
+    "grax_xf": {
+      "type": "Edm.String"
+    }
+  },
+  "graxopportunitycontactroleindex": {
+    "Id": {
+      "type": "Edm.String"
+    },
+    "graxid": {
+      "type": "Edm.String",
+      "key": "true"
+    },
+    "graxorgid": {
+      "type": "Edm.String"
+    },
+    "ContactId": {
+      "type": "Edm.String"
+    },
+    "CreatedById": {
+      "type": "Edm.String"
+    },
+    "CreatedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "GRAXCompanyName": {
+      "type": "Edm.String"
+    },
+    "IsDeleted": {
+      "type": "Edm.Boolean"
+    },
+    "IsPrimary": {
+      "type": "Edm.Boolean"
+    },
+    "LastModifiedById": {
+      "type": "Edm.String"
+    },
+    "LastModifiedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "OpportunityId": {
+      "type": "Edm.String"
+    },
+    "SystemModstamp": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "grax_Contact_Name": {
+      "type": "Edm.String"
+    },
+    "grax_CreatedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_LastModifiedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Opportunity_Name": {
+      "type": "Edm.String"
+    },
+    "grax_opportunitycontactrole_xf": {
+      "type": "Edm.String"
+    },
+    "grax_xf": {
+      "type": "Edm.String"
+    }
+  },
+  "graxcaseindex": {
+    "Id": {
+      "type": "Edm.String"
+    },
+    "graxid": {
+      "type": "Edm.String",
+      "key": "true"
+    },
+    "graxorgid": {
+      "type": "Edm.String"
+    },
+    "AccountId": {
+      "type": "Edm.String"
+    },
+    "AccountId_grax_xf_account": {
+      "type": "Edm.String"
+    },
+    "BusinessHoursId": {
+      "type": "Edm.String"
+    },
+    "BusinessHoursId_grax_xf_businesshours": {
+      "type": "Edm.String"
+    },
+    "CaseNumber": {
+      "type": "Edm.String"
+    },
+    "Case_Survey_URL__c": {
+      "type": "Edm.String"
+    },
+    "Channel__c": {
+      "type": "Edm.String"
+    },
+    "ClosedDate": {
+      "type": "Edm.Date"
+    },
+    "ClosedDate__c": {
+      "type": "Edm.Date"
+    },
+    "ClosedOnCreate": {
+      "type": "Edm.Boolean"
+    },
+    "Community_Contact_Match__c": {
+      "type": "Edm.Boolean"
+    },
+    "ContactEmail": {
+      "type": "Edm.String"
+    },
+    "ContactFax": {
+      "type": "Edm.String"
+    },
+    "ContactId": {
+      "type": "Edm.String"
+    },
+    "ContactId_grax_xf_contact": {
+      "type": "Edm.String"
+    },
+    "ContactMobile": {
+      "type": "Edm.String"
+    },
+    "ContactPhone": {
+      "type": "Edm.String"
+    },
+    "Cost__c": {
+      "type": "Edm.Int64"
+    },
+    "CreatedByAlias": {
+      "type": "Edm.String"
+    },
+    "CreatedById": {
+      "type": "Edm.String"
+    },
+    "CreatedById_grax_xf_user": {
+      "type": "Edm.String"
+    },
+    "CreatedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "CreatedDate__c": {
+      "type": "Edm.Date"
+    },
+    "Custom_Date_Field__c": {
+      "type": "Edm.Date"
+    },
+    "DB_Case_Duration_Hours__c": {
+      "type": "Edm.Int64"
+    },
+    "DB_Hours__c": {
+      "type": "Edm.Int64"
+    },
+    "DateTime_Closed_c__c": {
+      "type": "Edm.Date"
+    },
+    "DateTime_Opened_c__c": {
+      "type": "Edm.Date"
+    },
+    "Date_Time_Test__c": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "Description": {
+      "type": "Edm.String"
+    },
+    "Duration__c": {
+      "type": "Edm.Int64"
+    },
+    "EDY_ORGCUSTOM__DB__c": {
+      "type": "Edm.Boolean"
+    },
+    "ED_Leading_Causes__c": {
+      "type": "Edm.String"
+    },
+    "ED_Prescription__c": {
+      "type": "Edm.String"
+    },
+    "Encryption_Field__c": {
+      "type": "Edm.String"
+    },
+    "EngineeringReqNumber__c": {
+      "type": "Edm.String"
+    },
+    "EntitlementId": {
+      "type": "Edm.String"
+    },
+    "EntitlementId_grax_xf_entitlement": {
+      "type": "Edm.String"
+    },
+    "Escalation_URL__c": {
+      "type": "Edm.String"
+    },
+    "Est_Cost__c": {
+      "type": "Edm.Int64"
+    },
+    "EventsProcessedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "External_ID__c": {
+      "type": "Edm.String"
+    },
+    "First_Contact_Close__c": {
+      "type": "Edm.Boolean"
+    },
+    "GRAXCompanyName": {
+      "type": "Edm.String"
+    },
+    "HasCommentsUnreadByOwner": {
+      "type": "Edm.Boolean"
+    },
+    "HasSelfServiceComments": {
+      "type": "Edm.Boolean"
+    },
+    "IsClosed": {
+      "type": "Edm.Boolean"
+    },
+    "IsClosedOnCreate": {
+      "type": "Edm.Boolean"
+    },
+    "IsDeleted": {
+      "type": "Edm.Boolean"
+    },
+    "IsEscalated": {
+      "type": "Edm.Boolean"
+    },
+    "IsLocked": {
+      "type": "Edm.Boolean"
+    },
+    "IsSelfServiceClosed": {
+      "type": "Edm.Boolean"
+    },
+    "IsStopped": {
+      "type": "Edm.Boolean"
+    },
+    "IsVisibleInCss": {
+      "type": "Edm.Boolean"
+    },
+    "IsVisibleInSelfService": {
+      "type": "Edm.Boolean"
+    },
+    "KB_Article_Attached__c": {
+      "type": "Edm.Boolean"
+    },
+    "LastModifiedByAlias": {
+      "type": "Edm.String"
+    },
+    "LastModifiedById": {
+      "type": "Edm.String"
+    },
+    "LastModifiedById_grax_xf_user": {
+      "type": "Edm.String"
+    },
+    "LastModifiedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "LastReferencedDate": {
+      "type": "Edm.Date"
+    },
+    "LastViewedDate": {
+      "type": "Edm.Date"
+    },
+    "MayEdit": {
+      "type": "Edm.Boolean"
+    },
+    "MilestoneStatus": {
+      "type": "Edm.String"
+    },
+    "MilestoneStatus__c": {
+      "type": "Edm.String"
+    },
+    "Offer_Voucher__c": {
+      "type": "Edm.Boolean"
+    },
+    "Origin": {
+      "type": "Edm.String"
+    },
+    "OwnerId": {
+      "type": "Edm.String"
+    },
+    "OwnerId_grax_xf_OwnerId": {
+      "type": "Edm.String"
+    },
+    "Pick_Up__c": {
+      "type": "Edm.String"
+    },
+    "PotentialLiability__c": {
+      "type": "Edm.String"
+    },
+    "Priority": {
+      "type": "Edm.String"
+    },
+    "ProductId": {
+      "type": "Edm.String"
+    },
+    "ProductId_grax_xf_product2": {
+      "type": "Edm.String"
+    },
+    "Product_Family_KB__c": {
+      "type": "Edm.String"
+    },
+    "Product_Name__c": {
+      "type": "Edm.String"
+    },
+    "Product__c": {
+      "type": "Edm.String"
+    },
+    "Quality_Score__c": {
+      "type": "Edm.Int64"
+    },
+    "Reason": {
+      "type": "Edm.String"
+    },
+    "RecordTypeId": {
+      "type": "Edm.String"
+    },
+    "RecordTypeId_grax_xf_recordtype": {
+      "type": "Edm.String"
+    },
+    "Response_Time_mins__c": {
+      "type": "Edm.Int64"
+    },
+    "SLAViolation__c": {
+      "type": "Edm.String"
+    },
+    "SLA_Compliant__c": {
+      "type": "Edm.Boolean"
+    },
+    "Send_Email_Trigger__c": {
+      "type": "Edm.Boolean"
+    },
+    "Send_FieldService__c": {
+      "type": "Edm.Boolean"
+    },
+    "SlaExitDate": {
+      "type": "Edm.Date"
+    },
+    "SlaStartDate": {
+      "type": "Edm.Date"
+    },
+    "Status": {
+      "type": "Edm.String"
+    },
+    "Status_Indicator__c": {
+      "type": "Edm.String"
+    },
+    "StopStartDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "Sub_Type__c": {
+      "type": "Edm.String"
+    },
+    "Subject": {
+      "type": "Edm.String"
+    },
+    "SuppliedCompany": {
+      "type": "Edm.String"
+    },
+    "SuppliedEmail": {
+      "type": "Edm.String"
+    },
+    "SuppliedName": {
+      "type": "Edm.String"
+    },
+    "SuppliedPhone": {
+      "type": "Edm.String"
+    },
+    "SystemModstamp": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "Team__c": {
+      "type": "Edm.String"
+    },
+    "Time_Open__c": {
+      "type": "Edm.Int64"
+    },
+    "Type": {
+      "type": "Edm.String"
+    },
+    "Type_of_Support__c": {
+      "type": "Edm.String"
+    },
+    "Urgency__c": {
+      "type": "Edm.String"
+    },
+    "Volume__c": {
+      "type": "Edm.Int64"
+    },
+    "analyticsdemo_batch_id__c": {
+      "type": "Edm.String"
+    },
+    "grax_Account_Name": {
+      "type": "Edm.String"
+    },
+    "grax_BusinessHours_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Contact_Name": {
+      "type": "Edm.String"
+    },
+    "grax_CreatedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Entitlement_Name": {
+      "type": "Edm.String"
+    },
+    "grax_LastModifiedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_OwnerId_xf": {
+      "type": "Edm.String"
+    },
+    "grax_Owner_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Product_Name": {
+      "type": "Edm.String"
+    },
+    "grax_RecordType_Name": {
+      "type": "Edm.String"
+    },
+    "grax_account_xf": {
+      "type": "Edm.String"
+    },
+    "grax_businesshours_xf": {
+      "type": "Edm.String"
+    },
+    "grax_case_xf": {
+      "type": "Edm.String"
+    },
+    "grax_contact_xf": {
+      "type": "Edm.String"
+    },
+    "grax_entitlement_xf": {
+      "type": "Edm.String"
+    },
+    "grax_product2_xf": {
+      "type": "Edm.String"
+    },
+    "grax_recordtype_xf": {
+      "type": "Edm.String"
+    },
+    "grax_user_xf": {
+      "type": "Edm.String"
+    },
+    "grax_xf": {
+      "type": "Edm.String"
+    }
+  },
+  "graxgrax_data_record__cindex": {
+    "Id": {
+      "type": "Edm.String"
+    },
+    "graxid": {
+      "type": "Edm.String",
+      "key": "true"
+    },
+    "graxorgid": {
+      "type": "Edm.String"
+    },
+    "CreatedById": {
+      "type": "Edm.String"
+    },
+    "CreatedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "Error_Message__c": {
+      "type": "Edm.String"
+    },
+    "Execution_Unique_Key__c": {
+      "type": "Edm.String"
+    },
+    "GRAXCompanyName": {
+      "type": "Edm.String"
+    },
+    "GRAX_Archive_Process__c": {
+      "type": "Edm.String"
+    },
+    "GRAX_Schedule_Process__c": {
+      "type": "Edm.String"
+    },
+    "IsDeleted": {
+      "type": "Edm.Boolean"
+    },
+    "IsLocked": {
+      "type": "Edm.Boolean"
+    },
+    "LastModifiedById": {
+      "type": "Edm.String"
+    },
+    "LastModifiedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "LastReferencedDate": {
+      "type": "Edm.Date"
+    },
+    "LastViewedDate": {
+      "type": "Edm.Date"
+    },
+    "Last_Sent_Date__c": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "MayEdit": {
+      "type": "Edm.Boolean"
+    },
+    "Name": {
+      "type": "Edm.String"
+    },
+    "OwnerId": {
+      "type": "Edm.String"
+    },
+    "Records_Sent_to_GRAX__c": {
+      "type": "Edm.Int64"
+    },
+    "Records_To_Process__c": {
+      "type": "Edm.Int64"
+    },
+    "Salesforce_ID__c": {
+      "type": "Edm.String"
+    },
+    "Salesforce_Object__c": {
+      "type": "Edm.String"
+    },
+    "Sched_Proc_Hierarchy_Unique_Key__c": {
+      "type": "Edm.String"
+    },
+    "Status__c": {
+      "type": "Edm.String"
+    },
+    "SystemModstamp": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "grax_CreatedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_GRAX_Archive_Process__r_Name": {
+      "type": "Edm.String"
+    },
+    "grax_GRAX_Schedule_Process__r_Name": {
+      "type": "Edm.String"
+    },
+    "grax_LastModifiedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Owner_Name": {
+      "type": "Edm.String"
+    },
+    "grax_grax_data_record__c_name": {
+      "type": "Edm.String"
+    },
+    "grax_grax_data_record__c_xf": {
+      "type": "Edm.String"
+    },
+    "grax_xf": {
+      "type": "Edm.String"
+    },
+    "of_Times_Sent__c": {
+      "type": "Edm.Int64"
+    }
+  },
+  "graxgrax_archive_process__cindex": {
+    "Id": {
+      "type": "Edm.String"
+    },
+    "graxid": {
+      "type": "Edm.String",
+      "key": "true"
+    },
+    "graxorgid": {
+      "type": "Edm.String"
+    },
+    "Async_Records_Successfully_Sent__c": {
+      "type": "Edm.Int64"
+    },
+    "Async_Records_to_Process__c": {
+      "type": "Edm.Int64"
+    },
+    "CreatedById": {
+      "type": "Edm.String"
+    },
+    "CreatedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "GRAXCompanyName": {
+      "type": "Edm.String"
+    },
+    "GRAX_Schedule_Process__c": {
+      "type": "Edm.String"
+    },
+    "IsDeleted": {
+      "type": "Edm.Boolean"
+    },
+    "IsLocked": {
+      "type": "Edm.Boolean"
+    },
+    "LastModifiedById": {
+      "type": "Edm.String"
+    },
+    "LastModifiedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "MayEdit": {
+      "type": "Edm.Boolean"
+    },
+    "Name": {
+      "type": "Edm.String"
+    },
+    "Records_Successfully_Sent__c": {
+      "type": "Edm.Int64"
+    },
+    "Records_To_Process__c": {
+      "type": "Edm.Int64"
+    },
+    "Status__c": {
+      "type": "Edm.String"
+    },
+    "SystemModstamp": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "grax_CreatedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_GRAX_Schedule_Process__r_Name": {
+      "type": "Edm.String"
+    },
+    "grax_LastModifiedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_grax_archive_process__c_name": {
+      "type": "Edm.String"
+    },
+    "grax_grax_archive_process__c_xf": {
+      "type": "Edm.String"
+    },
+    "grax_xf": {
+      "type": "Edm.String"
+    }
+  },
+  "graxassetindex": {
+    "Id": {
+      "type": "Edm.String"
+    },
+    "graxid": {
+      "type": "Edm.String",
+      "key": "true"
+    },
+    "graxorgid": {
+      "type": "Edm.String"
+    },
+    "AccountId": {
+      "type": "Edm.String"
+    },
+    "AccountId_grax_xf_account": {
+      "type": "Edm.String"
+    },
+    "AssetLevel": {
+      "type": "Edm.Int64"
+    },
+    "Asset_Combo__c": {
+      "type": "Edm.String"
+    },
+    "ContactId": {
+      "type": "Edm.String"
+    },
+    "ContactId_grax_xf_contact": {
+      "type": "Edm.String"
+    },
+    "CreatedById": {
+      "type": "Edm.String"
+    },
+    "CreatedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "Current_Users_Asset__c": {
+      "type": "Edm.Boolean"
+    },
+    "Current_Users_Companys_Asset__c": {
+      "type": "Edm.Boolean"
+    },
+    "DB_Days__c": {
+      "type": "Edm.Int64"
+    },
+    "Entitlement_Status__c": {
+      "type": "Edm.String"
+    },
+    "GRAXCompanyName": {
+      "type": "Edm.String"
+    },
+    "Image__c": {
+      "type": "Edm.String"
+    },
+    "IsCompetitorProduct": {
+      "type": "Edm.Boolean"
+    },
+    "IsDeleted": {
+      "type": "Edm.Boolean"
+    },
+    "IsInternal": {
+      "type": "Edm.Boolean"
+    },
+    "IsLocked": {
+      "type": "Edm.Boolean"
+    },
+    "LastModifiedById": {
+      "type": "Edm.String"
+    },
+    "LastModifiedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "LastReferencedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "LastViewedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "MayEdit": {
+      "type": "Edm.Boolean"
+    },
+    "Name": {
+      "type": "Edm.String"
+    },
+    "OwnerId": {
+      "type": "Edm.String"
+    },
+    "Product2Id": {
+      "type": "Edm.String"
+    },
+    "ProductCode": {
+      "type": "Edm.String"
+    },
+    "RecordTypeId": {
+      "type": "Edm.String"
+    },
+    "RootAssetId": {
+      "type": "Edm.String"
+    },
+    "RootAssetId_grax_xf_asset": {
+      "type": "Edm.String"
+    },
+    "Scheduled_Servicing__c": {
+      "type": "Edm.Boolean"
+    },
+    "Status": {
+      "type": "Edm.String"
+    },
+    "SystemModstamp": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "Warranty_Indicator__c": {
+      "type": "Edm.String"
+    },
+    "grax_Account_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Contact_Name": {
+      "type": "Edm.String"
+    },
+    "grax_CreatedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_LastModifiedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Owner_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Product2_Name": {
+      "type": "Edm.String"
+    },
+    "grax_RecordType_Name": {
+      "type": "Edm.String"
+    },
+    "grax_RootAsset_Name": {
+      "type": "Edm.String"
+    },
+    "grax_account_xf": {
+      "type": "Edm.String"
+    },
+    "grax_asset_name": {
+      "type": "Edm.String"
+    },
+    "grax_asset_xf": {
+      "type": "Edm.String"
+    },
+    "grax_contact_xf": {
+      "type": "Edm.String"
+    },
+    "grax_xf": {
+      "type": "Edm.String"
+    }
+  },
+  "graxgrax_dynamic_flow_time__cindex": {
+    "Id": {
+      "type": "Edm.String"
+    },
+    "graxid": {
+      "type": "Edm.String",
+      "key": "true"
+    },
+    "graxorgid": {
+      "type": "Edm.String"
+    },
+    "CreatedById": {
+      "type": "Edm.String"
+    },
+    "CreatedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "GRAXCompanyName": {
+      "type": "Edm.String"
+    },
+    "IsDeleted": {
+      "type": "Edm.Boolean"
+    },
+    "IsLocked": {
+      "type": "Edm.Boolean"
+    },
+    "LastModifiedById": {
+      "type": "Edm.String"
+    },
+    "LastModifiedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "Last_Start_Time__c": {
+      "type": "Edm.String"
+    },
+    "MayEdit": {
+      "type": "Edm.Boolean"
+    },
+    "Name": {
+      "type": "Edm.String"
+    },
+    "SetupOwnerId": {
+      "type": "Edm.String"
+    },
+    "SystemModstamp": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "grax_CreatedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_LastModifiedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_grax_dynamic_flow_time__c_name": {
+      "type": "Edm.String"
+    },
+    "grax_grax_dynamic_flow_time__c_xf": {
+      "type": "Edm.String"
+    },
+    "grax_xf": {
+      "type": "Edm.String"
+    }
+  },
+  "graxworkdayindex": {
+    "Id": {
+      "type": "Edm.String"
+    },
+    "graxid": {
+      "type": "Edm.String",
+      "key": "true"
+    },
+    "graxorgid": {
+      "type": "Edm.String"
+    },
+    "Business_Title": {
+      "type": "Edm.String"
+    },
+    "Contingent_Worker_Type": {
+      "type": "Edm.String"
+    },
+    "Cost_Center": {
+      "type": "Edm.String"
+    },
+    "Cost_Center_(Logo_Hier_-_CBU)": {
+      "type": "Edm.String"
+    },
+    "Cost_Center_(Logo_Hier_-_Logo)": {
+      "type": "Edm.String"
+    },
+    "Cost_Center_(Mgr_Hier)": {
+      "type": "Edm.String"
+    },
+    "Cost_Center_(SC_Hier)": {
+      "type": "Edm.String"
+    },
+    "Cost_Center_(Vert_Hier)": {
+      "type": "Edm.String"
+    },
+    "CreatedById": {
+      "type": "Edm.String"
+    },
+    "CreatedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "Department": {
+      "type": "Edm.String"
+    },
+    "Department_Code": {
+      "type": "Edm.String"
+    },
+    "Dept_(BU_Hier_01)": {
+      "type": "Edm.String"
+    },
+    "Dept_(BU_Hier_02)": {
+      "type": "Edm.String"
+    },
+    "Dept_(BU_Hier_03)": {
+      "type": "Edm.String"
+    },
+    "Dept_(GAAP_Hier_01)": {
+      "type": "Edm.String"
+    },
+    "Dept_(GAAP_Hier_02)": {
+      "type": "Edm.String"
+    },
+    "Dept_(GAAP_Hier_03)": {
+      "type": "Edm.String"
+    },
+    "Email": {
+      "type": "Edm.String"
+    },
+    "Employee_ID": {
+      "type": "Edm.String"
+    },
+    "Employee_Type": {
+      "type": "Edm.String"
+    },
+    "FTE_%": {
+      "type": "Edm.String"
+    },
+    "First_Name": {
+      "type": "Edm.String"
+    },
+    "Hire_Date": {
+      "type": "Edm.String"
+    },
+    "Job_Code": {
+      "type": "Edm.String"
+    },
+    "Job_Family": {
+      "type": "Edm.String"
+    },
+    "Job_Family_Group": {
+      "type": "Edm.String"
+    },
+    "Job_Profile": {
+      "type": "Edm.String"
+    },
+    "LastModifiedById": {
+      "type": "Edm.String"
+    },
+    "LastModifiedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "Last_Name": {
+      "type": "Edm.String"
+    },
+    "Level_From_CEO": {
+      "type": "Edm.String"
+    },
+    "Location": {
+      "type": "Edm.String"
+    },
+    "Management_Level": {
+      "type": "Edm.String"
+    },
+    "Manager_-_Level_01": {
+      "type": "Edm.String"
+    },
+    "Manager_-_Level_02": {
+      "type": "Edm.String"
+    },
+    "Manager_01_Department": {
+      "type": "Edm.String"
+    },
+    "Mgr_01_Dept_Hier_(BU)_Level_01": {
+      "type": "Edm.String"
+    },
+    "Mgr_01_Dept_Hier_(BU)_Level_02": {
+      "type": "Edm.String"
+    },
+    "Position": {
+      "type": "Edm.String"
+    },
+    "Region": {
+      "type": "Edm.String"
+    },
+    "Region_Hierarchy": {
+      "type": "Edm.String"
+    },
+    "Status": {
+      "type": "Edm.String"
+    },
+    "Supervisory_Organization": {
+      "type": "Edm.String"
+    },
+    "SystemModstamp": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "Time_Type": {
+      "type": "Edm.String"
+    },
+    "Time_in_Job_Profile": {
+      "type": "Edm.String"
+    },
+    "Time_in_Position": {
+      "type": "Edm.String"
+    },
+    "User_Name": {
+      "type": "Edm.String"
+    },
+    "Worker_Type": {
+      "type": "Edm.String"
+    },
+    "Years_of_Service": {
+      "type": "Edm.String"
+    },
+    "grax_workday_xf": {
+      "type": "Edm.String"
+    },
+    "grax_xf": {
+      "type": "Edm.String"
+    }
+  },
+  "graxgrax_schedule_process__cindex": {
+    "Id": {
+      "type": "Edm.String"
+    },
+    "graxid": {
+      "type": "Edm.String",
+      "key": "true"
+    },
+    "graxorgid": {
+      "type": "Edm.String"
+    },
+    "Archive__c": {
+      "type": "Edm.Boolean"
+    },
+    "CreatedById": {
+      "type": "Edm.String"
+    },
+    "CreatedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "Date_Field__c": {
+      "type": "Edm.String"
+    },
+    "Execution_Unique_Key__c": {
+      "type": "Edm.String"
+    },
+    "GRAXCompanyName": {
+      "type": "Edm.String"
+    },
+    "IsDeleted": {
+      "type": "Edm.Boolean"
+    },
+    "IsLocked": {
+      "type": "Edm.Boolean"
+    },
+    "LastModifiedById": {
+      "type": "Edm.String"
+    },
+    "LastModifiedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "LastReferencedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "LastViewedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "Last_Run_Date__c": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "Last_Start_Time__c": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "MayEdit": {
+      "type": "Edm.Boolean"
+    },
+    "Name": {
+      "type": "Edm.String"
+    },
+    "Next_Run_Date__c": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "Object_Name__c": {
+      "type": "Edm.String"
+    },
+    "OwnerId": {
+      "type": "Edm.String"
+    },
+    "Progressive__c": {
+      "type": "Edm.Boolean"
+    },
+    "Schedule_Start_Date__c": {
+      "type": "Edm.Date"
+    },
+    "Schedule_Start_Time__c": {
+      "type": "Edm.String"
+    },
+    "Schedule_Type__c": {
+      "type": "Edm.String"
+    },
+    "Select_Criteria__c": {
+      "type": "Edm.String"
+    },
+    "Status__c": {
+      "type": "Edm.String"
+    },
+    "SystemModstamp": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "Target_Date__c": {
+      "type": "Edm.Date"
+    },
+    "Total_Objects_Processed__c": {
+      "type": "Edm.Int64"
+    },
+    "Total_Objects_To_Process__c": {
+      "type": "Edm.Int64"
+    },
+    "grax_CreatedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_LastModifiedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Owner_Name": {
+      "type": "Edm.String"
+    },
+    "grax_grax_schedule_process__c_name": {
+      "type": "Edm.String"
+    },
+    "grax_grax_schedule_process__c_xf": {
+      "type": "Edm.String"
+    },
+    "grax_xf": {
+      "type": "Edm.String"
+    },
+    "type__c": {
+      "type": "Edm.String"
+    }
+  },
+  "graxinvoicedataindex": {
+    "Id": {
+      "type": "Edm.String"
+    },
+    "graxid": {
+      "type": "Edm.String",
+      "key": "true"
+    },
+    "graxorgid": {
+      "type": "Edm.String"
+    },
+    "BREED_NAME": {
+      "type": "Edm.String"
+    },
+    "COUNTRY": {
+      "type": "Edm.String"
+    },
+    "CURRENT_SOFTWARE_VERSION": {
+      "type": "Edm.String"
+    },
+    "CUSTOMER_GROUP_DESC": {
+      "type": "Edm.String"
+    },
+    "CreatedById": {
+      "type": "Edm.String"
+    },
+    "CreatedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "DB_PATIENT_ID": {
+      "type": "Edm.String"
+    },
+    "DB_RUN_ID": {
+      "type": "Edm.String"
+    },
+    "DEVICE_SERIAL_NUMBER": {
+      "type": "Edm.String"
+    },
+    "DEVICE_SOFTWARE_VERSION": {
+      "type": "Edm.String"
+    },
+    "FIRST_TRANSMISSION_DATE": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "GENDER": {
+      "type": "Edm.String"
+    },
+    "IDEXX_PANEL_NAME": {
+      "type": "Edm.String"
+    },
+    "IDEXX_RUN_TEST_COUNT": {
+      "type": "Edm.String"
+    },
+    "IDEXX_RUN_TEST_LIST": {
+      "type": "Edm.String"
+    },
+    "IDEXX_UTILIZATION_COUNT": {
+      "type": "Edm.String"
+    },
+    "INSTRUMENT_RUN_UUID": {
+      "type": "Edm.String"
+    },
+    "IVLS_SERIAL_NUMBER": {
+      "type": "Edm.String"
+    },
+    "IVLS_SOFTWARE_VERSION": {
+      "type": "Edm.String"
+    },
+    "LAST_LOAD_DATE": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "LastModifiedById": {
+      "type": "Edm.String"
+    },
+    "LastModifiedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "PATIENT_NAME": {
+      "type": "Edm.String"
+    },
+    "REPORTING_DEVICE_NAME": {
+      "type": "Edm.String"
+    },
+    "RUN_DATE": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "RUN_IS_SUPPRESSED_FLAG": {
+      "type": "Edm.String"
+    },
+    "RUN_TYPE": {
+      "type": "Edm.String"
+    },
+    "SAMPLE_TYPE_NAME": {
+      "type": "Edm.String"
+    },
+    "SAP_NUMBER_CONVERSION": {
+      "type": "Edm.String"
+    },
+    "SPECIES_NAME": {
+      "type": "Edm.String"
+    },
+    "STATUS": {
+      "type": "Edm.String"
+    },
+    "SystemModstamp": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "grax_invoicedata_xf": {
+      "type": "Edm.String"
+    },
+    "grax_xf": {
+      "type": "Edm.String"
+    }
+  },
+  "graxgraxquery__cindex": {
+    "Id": {
+      "type": "Edm.String"
+    },
+    "graxid": {
+      "type": "Edm.String",
+      "key": "true"
+    },
+    "graxorgid": {
+      "type": "Edm.String"
+    },
+    "CreatedById": {
+      "type": "Edm.String"
+    },
+    "CreatedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "Do_Not_Store_Data__c": {
+      "type": "Edm.Boolean"
+    },
+    "Enable_Audit_Log__c": {
+      "type": "Edm.Boolean"
+    },
+    "GRAXCompanyName": {
+      "type": "Edm.String"
+    },
+    "GRAX_Configured__c": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "IsDeleted": {
+      "type": "Edm.Boolean"
+    },
+    "IsLocked": {
+      "type": "Edm.Boolean"
+    },
+    "LastModifiedById": {
+      "type": "Edm.String"
+    },
+    "LastModifiedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "LastReferencedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "LastViewedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "Last_Synch__c": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "MayEdit": {
+      "type": "Edm.Boolean"
+    },
+    "Name": {
+      "type": "Edm.String"
+    },
+    "ObjectName__c": {
+      "type": "Edm.String"
+    },
+    "Order_By__c": {
+      "type": "Edm.String"
+    },
+    "OwnerId": {
+      "type": "Edm.String"
+    },
+    "Selected_Fields__c": {
+      "type": "Edm.String"
+    },
+    "SystemModstamp": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "Total_Records_Processed__c": {
+      "type": "Edm.Int64"
+    },
+    "grax_CreatedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_LastModifiedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Owner_Name": {
+      "type": "Edm.String"
+    },
+    "grax_graxquery__c_name": {
+      "type": "Edm.String"
+    },
+    "grax_graxquery__c_xf": {
+      "type": "Edm.String"
+    },
+    "grax_xf": {
+      "type": "Edm.String"
+    },
+    "graxconfig__c": {
+      "type": "Edm.String"
+    }
+  },
+  "graxutilizationdataindex": {
+    "Id": {
+      "type": "Edm.String"
+    },
+    "graxid": {
+      "type": "Edm.String",
+      "key": "true"
+    },
+    "graxorgid": {
+      "type": "Edm.String"
+    },
+    "BAD_NAME": {
+      "type": "Edm.String"
+    },
+    "BREED_NAME": {
+      "type": "Edm.String"
+    },
+    "COUNTRY": {
+      "type": "Edm.String"
+    },
+    "CURRENT_SOFTWARE_VERSION": {
+      "type": "Edm.String"
+    },
+    "CUSTOMER_GROUP_DESC": {
+      "type": "Edm.String"
+    },
+    "CreatedById": {
+      "type": "Edm.String"
+    },
+    "CreatedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "DB_PATIENT_ID": {
+      "type": "Edm.String"
+    },
+    "DB_RUN_ID": {
+      "type": "Edm.String"
+    },
+    "DEVICE_SERIAL_NUMBER": {
+      "type": "Edm.String"
+    },
+    "DEVICE_SOFTWARE_VERSION": {
+      "type": "Edm.String"
+    },
+    "FIRST_TRANSMISSION_DATE": {
+      "type": "Edm.String"
+    },
+    "GENDER": {
+      "type": "Edm.String"
+    },
+    "IDEXX_PANEL_NAME": {
+      "type": "Edm.String"
+    },
+    "IDEXX_RUN_TEST_COUNT": {
+      "type": "Edm.String"
+    },
+    "IDEXX_RUN_TEST_LIST": {
+      "type": "Edm.String"
+    },
+    "IDEXX_UTILIZATION_COUNT": {
+      "type": "Edm.String"
+    },
+    "INSTRUMENT_RUN_UUID": {
+      "type": "Edm.String"
+    },
+    "IVLS_SERIAL_NUMBER": {
+      "type": "Edm.String"
+    },
+    "IVLS_SOFTWARE_VERSION": {
+      "type": "Edm.String"
+    },
+    "LAST_LOAD_DATE": {
+      "type": "Edm.String"
+    },
+    "LastModifiedById": {
+      "type": "Edm.String"
+    },
+    "LastModifiedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "PATIENT_NAME": {
+      "type": "Edm.String"
+    },
+    "REPORTING_DEVICE_NAME": {
+      "type": "Edm.String"
+    },
+    "RUN_DATE": {
+      "type": "Edm.String"
+    },
+    "RUN_IS_SUPPRESSED_FLAG": {
+      "type": "Edm.String"
+    },
+    "RUN_TYPE": {
+      "type": "Edm.String"
+    },
+    "SAMPLE_TYPE_NAME": {
+      "type": "Edm.String"
+    },
+    "SAP_NUMBER_CONVERSION": {
+      "type": "Edm.String"
+    },
+    "SPECIES_NAME": {
+      "type": "Edm.String"
+    },
+    "STATUS": {
+      "type": "Edm.String"
+    },
+    "SystemModstamp": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "grax_utilizationdata_xf": {
+      "type": "Edm.String"
+    },
+    "grax_xf": {
+      "type": "Edm.String"
+    }
+  },
+  "graxopportunityindex": {
+    "Id": {
+      "type": "Edm.String"
+    },
+    "graxid": {
+      "type": "Edm.String",
+      "key": "true"
+    },
+    "graxorgid": {
+      "type": "Edm.String"
+    },
+    "AccountId": {
+      "type": "Edm.String"
+    },
+    "AccountId_grax_xf_account": {
+      "type": "Edm.String"
+    },
+    "Account_Name__c": {
+      "type": "Edm.String"
+    },
+    "Account_Region__c": {
+      "type": "Edm.String"
+    },
+    "Age__c": {
+      "type": "Edm.Int64"
+    },
+    "Amount": {
+      "type": "Edm.Int64"
+    },
+    "AutoNumber__c": {
+      "type": "Edm.String"
+    },
+    "Boosting_Reason__c": {
+      "type": "Edm.String"
+    },
+    "Budget_Approved__c": {
+      "type": "Edm.Boolean"
+    },
+    "CampaignId": {
+      "type": "Edm.String"
+    },
+    "CampaignId_grax_xf_campaign": {
+      "type": "Edm.String"
+    },
+    "Case__c": {
+      "type": "Edm.String"
+    },
+    "Case__c_grax_xf_case": {
+      "type": "Edm.String"
+    },
+    "CloseDate": {
+      "type": "Edm.Date"
+    },
+    "CloseDate_TODAY__c": {
+      "type": "Edm.Int64"
+    },
+    "Coaching__c": {
+      "type": "Edm.String"
+    },
+    "Coaching__c_grax_xf_workcoaching": {
+      "type": "Edm.String"
+    },
+    "Competitive_Coach__c": {
+      "type": "Edm.String"
+    },
+    "Competitive_Deal__c": {
+      "type": "Edm.Boolean"
+    },
+    "Competitor_Mentioned__c": {
+      "type": "Edm.Boolean"
+    },
+    "Competitor__c": {
+      "type": "Edm.String"
+    },
+    "Competitor_they_Mentioned__c": {
+      "type": "Edm.String"
+    },
+    "Complete_ROI_Analysis__c": {
+      "type": "Edm.Boolean"
+    },
+    "ContactId": {
+      "type": "Edm.String"
+    },
+    "Contact_City__c": {
+      "type": "Edm.String"
+    },
+    "Contact_Company__c": {
+      "type": "Edm.String"
+    },
+    "Contact_Country__c": {
+      "type": "Edm.String"
+    },
+    "Contact_Email__c": {
+      "type": "Edm.String"
+    },
+    "Contact_Name__c": {
+      "type": "Edm.String"
+    },
+    "Contact_Phone__c": {
+      "type": "Edm.String"
+    },
+    "Contact_Postal_Code__c": {
+      "type": "Edm.String"
+    },
+    "Contact_State_Province__c": {
+      "type": "Edm.String"
+    },
+    "Contact_Street__c": {
+      "type": "Edm.String"
+    },
+    "Contact_Title__c": {
+      "type": "Edm.String"
+    },
+    "ContractId": {
+      "type": "Edm.String"
+    },
+    "ContractId_grax_xf_contract": {
+      "type": "Edm.String"
+    },
+    "CreatedById": {
+      "type": "Edm.String"
+    },
+    "CreatedById_grax_xf_user": {
+      "type": "Edm.String"
+    },
+    "CreatedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "CreatedDate__c": {
+      "type": "Edm.Date"
+    },
+    "CurrentGenerators__c": {
+      "type": "Edm.String"
+    },
+    "DB_Amount__c": {
+      "type": "Edm.Int64"
+    },
+    "DB_Days__c": {
+      "type": "Edm.Int64"
+    },
+    "DateTimeCreated__c": {
+      "type": "Edm.Date"
+    },
+    "Days_Left_Until_Expire__c": {
+      "type": "Edm.Int64"
+    },
+    "Deal_Approved_Date__c": {
+      "type": "Edm.Date"
+    },
+    "Deal_Forward__c": {
+      "type": "Edm.Boolean"
+    },
+    "Deal_ID__c": {
+      "type": "Edm.String"
+    },
+    "Deal_Slowing__c": {
+      "type": "Edm.Boolean"
+    },
+    "Deal_Source__c": {
+      "type": "Edm.String"
+    },
+    "Deal_boosting__c": {
+      "type": "Edm.Boolean"
+    },
+    "Decision_Role__c": {
+      "type": "Edm.String"
+    },
+    "DeliveryInstallationStatus__c": {
+      "type": "Edm.String"
+    },
+    "Description": {
+      "type": "Edm.String"
+    },
+    "Discount_Approved__c": {
+      "type": "Edm.String"
+    },
+    "Discount__c": {
+      "type": "Edm.Int64"
+    },
+    "Distributor__c": {
+      "type": "Edm.String"
+    },
+    "ED_Close_Date_Delta__c": {
+      "type": "Edm.Int64"
+    },
+    "ED_Leading_Causes__c": {
+      "type": "Edm.String"
+    },
+    "ED_Predicted_Close_Date__c": {
+      "type": "Edm.Date"
+    },
+    "ED_Prescription__c": {
+      "type": "Edm.String"
+    },
+    "Email_Body__c": {
+      "type": "Edm.String"
+    },
+    "Email_Subject__c": {
+      "type": "Edm.String"
+    },
+    "Engage_Legal__c": {
+      "type": "Edm.Boolean"
+    },
+    "Exec_Meeting__c": {
+      "type": "Edm.Boolean"
+    },
+    "ExpectedRevenue": {
+      "type": "Edm.Int64"
+    },
+    "External_ID__c": {
+      "type": "Edm.String"
+    },
+    "Fiscal": {
+      "type": "Edm.String"
+    },
+    "FiscalQuarter": {
+      "type": "Edm.Int64"
+    },
+    "FiscalYear": {
+      "type": "Edm.Int64"
+    },
+    "ForecastCategory": {
+      "type": "Edm.String"
+    },
+    "ForecastCategoryName": {
+      "type": "Edm.String"
+    },
+    "GRAXCompanyName": {
+      "type": "Edm.String"
+    },
+    "GRAXTaskFlag2__c": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "GRAXTaskFlag__c": {
+      "type": "Edm.Date"
+    },
+    "HasOpenActivity": {
+      "type": "Edm.Boolean"
+    },
+    "HasOpportunityLineItem": {
+      "type": "Edm.Boolean"
+    },
+    "HasOverdueTask": {
+      "type": "Edm.Boolean"
+    },
+    "IndStatus__c": {
+      "type": "Edm.String"
+    },
+    "Interactive_Demo__c": {
+      "type": "Edm.Boolean"
+    },
+    "Internal_Pricing_Approvals__c": {
+      "type": "Edm.Boolean"
+    },
+    "Intial_Estimated_Close_Date__c": {
+      "type": "Edm.Date"
+    },
+    "IsClosed": {
+      "type": "Edm.Boolean"
+    },
+    "IsDeleted": {
+      "type": "Edm.Boolean"
+    },
+    "IsExcludedFromTerritory2Filter": {
+      "type": "Edm.Boolean"
+    },
+    "IsLocked": {
+      "type": "Edm.Boolean"
+    },
+    "IsPrivate": {
+      "type": "Edm.Boolean"
+    },
+    "IsSplit": {
+      "type": "Edm.Boolean"
+    },
+    "IsWon": {
+      "type": "Edm.Boolean"
+    },
+    "LastActivityDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "LastActivityDate__c": {
+      "type": "Edm.Date"
+    },
+    "LastModifiedById": {
+      "type": "Edm.String"
+    },
+    "LastModifiedById_grax_xf_user": {
+      "type": "Edm.String"
+    },
+    "LastModifiedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "LastModifiedDate__c": {
+      "type": "Edm.Date"
+    },
+    "LastReferencedDate": {
+      "type": "Edm.Date"
+    },
+    "LastStageChangeDate": {
+      "type": "Edm.Date"
+    },
+    "LastViewedDate": {
+      "type": "Edm.Date"
+    },
+    "Last_Activity_Subject__c": {
+      "type": "Edm.String"
+    },
+    "Last_Activity_Text__c": {
+      "type": "Edm.String"
+    },
+    "Last_Activity_Type__c": {
+      "type": "Edm.String"
+    },
+    "LeadSource": {
+      "type": "Edm.String"
+    },
+    "MainCompetitors__c": {
+      "type": "Edm.String"
+    },
+    "Margin__c": {
+      "type": "Edm.Int64"
+    },
+    "MayEdit": {
+      "type": "Edm.Boolean"
+    },
+    "Name": {
+      "type": "Edm.String"
+    },
+    "Name_of_Contact__c": {
+      "type": "Edm.String"
+    },
+    "NextStep": {
+      "type": "Edm.String"
+    },
+    "No_Communication__c": {
+      "type": "Edm.Boolean"
+    },
+    "OrderNumber__c": {
+      "type": "Edm.String"
+    },
+    "OwnerId": {
+      "type": "Edm.String"
+    },
+    "OwnerId_grax_xf_user": {
+      "type": "Edm.String"
+    },
+    "PartnerAccountId": {
+      "type": "Edm.String"
+    },
+    "PartnerAccountId_grax_xf_account": {
+      "type": "Edm.String"
+    },
+    "Pricebook2Id": {
+      "type": "Edm.String"
+    },
+    "Pricebook2Id_grax_xf_pricebook2": {
+      "type": "Edm.String"
+    },
+    "Primary_Contact__c": {
+      "type": "Edm.String"
+    },
+    "Primary_Contact__c_grax_xf_contact": {
+      "type": "Edm.String"
+    },
+    "Probability": {
+      "type": "Edm.Int64"
+    },
+    "Products__c": {
+      "type": "Edm.String"
+    },
+    "Project_Budget__c": {
+      "type": "Edm.Int64"
+    },
+    "Project_Budgeted__c": {
+      "type": "Edm.Boolean"
+    },
+    "Prospect_Unresponsive__c": {
+      "type": "Edm.Boolean"
+    },
+    "Push_Counter__c": {
+      "type": "Edm.Int64"
+    },
+    "Re_engaged__c": {
+      "type": "Edm.Boolean"
+    },
+    "Reason_Lost__c": {
+      "type": "Edm.String"
+    },
+    "RecordTypeId": {
+      "type": "Edm.String"
+    },
+    "RecordTypeId_grax_xf_recordtype": {
+      "type": "Edm.String"
+    },
+    "Registration_Expiration__c": {
+      "type": "Edm.Date"
+    },
+    "StageName": {
+      "type": "Edm.String"
+    },
+    "StageSortOrder": {
+      "type": "Edm.Int64"
+    },
+    "Stalled_Opportunity__c": {
+      "type": "Edm.Boolean"
+    },
+    "Status_Value__c": {
+      "type": "Edm.String"
+    },
+    "SyncedQuoteId": {
+      "type": "Edm.String"
+    },
+    "SyncedQuoteId_grax_xf_quote": {
+      "type": "Edm.String"
+    },
+    "SystemModstamp": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "Task_Overdue__c": {
+      "type": "Edm.Boolean"
+    },
+    "Time_Consuming_Oppty__c": {
+      "type": "Edm.Boolean"
+    },
+    "TotalOpportunityQuantity": {
+      "type": "Edm.Int64"
+    },
+    "TrackingNumber__c": {
+      "type": "Edm.String"
+    },
+    "Type": {
+      "type": "Edm.String"
+    },
+    "View_Forwarded_Lead__c": {
+      "type": "Edm.String"
+    },
+    "Winning_Competitor__c": {
+      "type": "Edm.String"
+    },
+    "Winning_Unlikely__c": {
+      "type": "Edm.Boolean"
+    },
+    "analyticsdemo_batch_id__c": {
+      "type": "Edm.String"
+    },
+    "cv__c": {
+      "type": "Edm.Boolean"
+    },
+    "grax_Account_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Campaign_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Case__r_CaseNumber": {
+      "type": "Edm.String"
+    },
+    "grax_Coaching__r_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Contract_ContractNumber": {
+      "type": "Edm.String"
+    },
+    "grax_CreatedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_LastModifiedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Owner_Name": {
+      "type": "Edm.String"
+    },
+    "grax_PartnerAccount_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Pricebook2_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Primary_Contact__r_Name": {
+      "type": "Edm.String"
+    },
+    "grax_RecordType_Name": {
+      "type": "Edm.String"
+    },
+    "grax_SyncedQuote_Name": {
+      "type": "Edm.String"
+    },
+    "grax_account_xf": {
+      "type": "Edm.String"
+    },
+    "grax_campaign_xf": {
+      "type": "Edm.String"
+    },
+    "grax_case_xf": {
+      "type": "Edm.String"
+    },
+    "grax_contact_xf": {
+      "type": "Edm.String"
+    },
+    "grax_contract_xf": {
+      "type": "Edm.String"
+    },
+    "grax_opportunity_name": {
+      "type": "Edm.String"
+    },
+    "grax_opportunity_xf": {
+      "type": "Edm.String"
+    },
+    "grax_pricebook2_xf": {
+      "type": "Edm.String"
+    },
+    "grax_quote_xf": {
+      "type": "Edm.String"
+    },
+    "grax_recordtype_xf": {
+      "type": "Edm.String"
+    },
+    "grax_user_xf": {
+      "type": "Edm.String"
+    },
+    "grax_workcoaching_xf": {
+      "type": "Edm.String"
+    },
+    "grax_xf": {
+      "type": "Edm.String"
+    }
+  },
+  "graxgraxsettings__cindex": {
+    "Id": {
+      "type": "Edm.String"
+    },
+    "graxid": {
+      "type": "Edm.String",
+      "key": "true"
+    },
+    "graxorgid": {
+      "type": "Edm.String"
+    },
+    "ApiToken__c": {
+      "type": "Edm.String"
+    },
+    "BatchMaxExecutionNumber__c": {
+      "type": "Edm.Int64"
+    },
+    "CreatedById": {
+      "type": "Edm.String"
+    },
+    "CreatedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "Display_Organization_Name__c": {
+      "type": "Edm.Boolean"
+    },
+    "Display_Outside_Records_Only__c": {
+      "type": "Edm.Boolean"
+    },
+    "EnableFieldTracking__c": {
+      "type": "Edm.Boolean"
+    },
+    "EnableObjectTracking__c": {
+      "type": "Edm.Boolean"
+    },
+    "GRAXCompanyName": {
+      "type": "Edm.String"
+    },
+    "GRAX_API_Url__c": {
+      "type": "Edm.String"
+    },
+    "GRAX_Flow_URL__c": {
+      "type": "Edm.String"
+    },
+    "GatewayToken__c": {
+      "type": "Edm.String"
+    },
+    "Graph_DB_Password__c": {
+      "type": "Edm.String"
+    },
+    "Graph_DB_URL__c": {
+      "type": "Edm.String"
+    },
+    "Graph_DB_Username__c": {
+      "type": "Edm.String"
+    },
+    "Heroku_App_Name__c": {
+      "type": "Edm.String"
+    },
+    "IsDeleted": {
+      "type": "Edm.Boolean"
+    },
+    "IsLocked": {
+      "type": "Edm.Boolean"
+    },
+    "LastModifiedById": {
+      "type": "Edm.String"
+    },
+    "LastModifiedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "LicenseToken__c": {
+      "type": "Edm.String"
+    },
+    "MayEdit": {
+      "type": "Edm.Boolean"
+    },
+    "Name": {
+      "type": "Edm.String"
+    },
+    "Postgres_URL__c": {
+      "type": "Edm.String"
+    },
+    "SetupOwnerId": {
+      "type": "Edm.String"
+    },
+    "SystemModstamp": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "grax_CreatedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_LastModifiedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_graxsettings__c_name": {
+      "type": "Edm.String"
+    },
+    "grax_graxsettings__c_xf": {
+      "type": "Edm.String"
+    },
+    "grax_xf": {
+      "type": "Edm.String"
+    },
+    "s3accesskeyid__c": {
+      "type": "Edm.String"
+    },
+    "s3bucket__c": {
+      "type": "Edm.String"
+    },
+    "s3region__c": {
+      "type": "Edm.String"
+    },
+    "s3secretaccesskey__c": {
+      "type": "Edm.String"
+    }
+  },
+  "graxattachmentindex": {
+    "Id": {
+      "type": "Edm.String"
+    },
+    "graxid": {
+      "type": "Edm.String",
+      "key": "true"
+    },
+    "graxorgid": {
+      "type": "Edm.String"
+    },
+    "BodyLength": {
+      "type": "Edm.Int64"
+    },
+    "ContentType": {
+      "type": "Edm.String"
+    },
+    "CreatedById": {
+      "type": "Edm.String"
+    },
+    "CreatedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "GRAXCompanyName": {
+      "type": "Edm.String"
+    },
+    "IsDeleted": {
+      "type": "Edm.Boolean"
+    },
+    "IsPrivate": {
+      "type": "Edm.Boolean"
+    },
+    "LastModifiedById": {
+      "type": "Edm.String"
+    },
+    "LastModifiedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "Name": {
+      "type": "Edm.String"
+    },
+    "OwnerId": {
+      "type": "Edm.String"
+    },
+    "ParentId": {
+      "type": "Edm.String"
+    },
+    "SystemModstamp": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "grax_CreatedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_LastModifiedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Owner_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Parent_Name": {
+      "type": "Edm.String"
+    },
+    "grax_attachment_name": {
+      "type": "Edm.String"
+    },
+    "grax_attachment_xf": {
+      "type": "Edm.String"
+    },
+    "grax_xf": {
+      "type": "Edm.String"
+    }
+  },
+  "graxgrax_history_trackingindex": {
+    "Id": {
+      "type": "Edm.String"
+    },
+    "graxid": {
+      "type": "Edm.String",
+      "key": "true"
+    },
+    "graxorgid": {
+      "type": "Edm.String"
+    },
+    "CreatedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "LastModifiedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "SystemModstamp": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "destination_Id": {
+      "type": "Edm.String"
+    },
+    "destination_graxid": {
+      "type": "Edm.String"
+    },
+    "destination_orgid": {
+      "type": "Edm.String"
+    },
+    "source_CreatedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "source_Id": {
+      "type": "Edm.String"
+    },
+    "source_LastModifiedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "source_graxid": {
+      "type": "Edm.String"
+    },
+    "source_orgid": {
+      "type": "Edm.String"
+    }
+  },
+  "graxcontactindex": {
+    "Id": {
+      "type": "Edm.String"
+    },
+    "graxid": {
+      "type": "Edm.String",
+      "key": "true"
+    },
+    "graxorgid": {
+      "type": "Edm.String"
+    },
+    "AccountId": {
+      "type": "Edm.String"
+    },
+    "AccountId_grax_xf_account": {
+      "type": "Edm.String"
+    },
+    "AccountName": {
+      "type": "Edm.String"
+    },
+    "ActiveLiveAgentUser__c": {
+      "type": "Edm.Boolean"
+    },
+    "Activity_Indicator__c": {
+      "type": "Edm.String"
+    },
+    "Activity_Indicator_partner__c": {
+      "type": "Edm.String"
+    },
+    "CanAllowPortalSelfReg": {
+      "type": "Edm.Boolean"
+    },
+    "CleanStatus": {
+      "type": "Edm.String"
+    },
+    "Contact_Location__c": {
+      "type": "Edm.String"
+    },
+    "CreatedById": {
+      "type": "Edm.String"
+    },
+    "CreatedById_grax_xf_user": {
+      "type": "Edm.String"
+    },
+    "CreatedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "Days_Since_Last_Activity__c": {
+      "type": "Edm.Int64"
+    },
+    "Description": {
+      "type": "Edm.String"
+    },
+    "DoNotCall": {
+      "type": "Edm.Boolean"
+    },
+    "EDY_ORGCUSTOM__DB__c": {
+      "type": "Edm.Boolean"
+    },
+    "Email": {
+      "type": "Edm.String"
+    },
+    "Facebook_Profile_Picture__c": {
+      "type": "Edm.String"
+    },
+    "Fax": {
+      "type": "Edm.String"
+    },
+    "FirstName": {
+      "type": "Edm.String"
+    },
+    "GRAXCompanyName": {
+      "type": "Edm.String"
+    },
+    "HasOptedOutOfEmail": {
+      "type": "Edm.Boolean"
+    },
+    "HasOptedOutOfFax": {
+      "type": "Edm.Boolean"
+    },
+    "IsDeleted": {
+      "type": "Edm.Boolean"
+    },
+    "IsEmailBounced": {
+      "type": "Edm.Boolean"
+    },
+    "IsLocked": {
+      "type": "Edm.Boolean"
+    },
+    "IsPersonAccount": {
+      "type": "Edm.Boolean"
+    },
+    "Klout_Score__c": {
+      "type": "Edm.Int64"
+    },
+    "LastActivityDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "LastModifiedById": {
+      "type": "Edm.String"
+    },
+    "LastModifiedById_grax_xf_user": {
+      "type": "Edm.String"
+    },
+    "LastModifiedDate": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "LastName": {
+      "type": "Edm.String"
+    },
+    "LastReferencedDate": {
+      "type": "Edm.Date"
+    },
+    "LastViewedDate": {
+      "type": "Edm.Date"
+    },
+    "LeadSource": {
+      "type": "Edm.String"
+    },
+    "MailingCity": {
+      "type": "Edm.String"
+    },
+    "MailingCountry": {
+      "type": "Edm.String"
+    },
+    "MailingPostalCode": {
+      "type": "Edm.String"
+    },
+    "MailingState": {
+      "type": "Edm.String"
+    },
+    "MailingStreet": {
+      "type": "Edm.String"
+    },
+    "MayEdit": {
+      "type": "Edm.Boolean"
+    },
+    "MobilePhone": {
+      "type": "Edm.String"
+    },
+    "Name": {
+      "type": "Edm.String"
+    },
+    "Open_Address_in_Google_Maps__c": {
+      "type": "Edm.String"
+    },
+    "OtherCity": {
+      "type": "Edm.String"
+    },
+    "OtherCountry": {
+      "type": "Edm.String"
+    },
+    "OtherPostalCode": {
+      "type": "Edm.String"
+    },
+    "OtherState": {
+      "type": "Edm.String"
+    },
+    "OtherStreet": {
+      "type": "Edm.String"
+    },
+    "OwnerId": {
+      "type": "Edm.String"
+    },
+    "OwnerId_grax_xf_user": {
+      "type": "Edm.String"
+    },
+    "Phone": {
+      "type": "Edm.String"
+    },
+    "PhotoUrl": {
+      "type": "Edm.String"
+    },
+    "RecordTypeId": {
+      "type": "Edm.String"
+    },
+    "RecordTypeId_grax_xf_recordtype": {
+      "type": "Edm.String"
+    },
+    "ReportsToId": {
+      "type": "Edm.String"
+    },
+    "ReportsToId_grax_xf_contact": {
+      "type": "Edm.String"
+    },
+    "ReportsToName": {
+      "type": "Edm.String"
+    },
+    "SSP_User__c": {
+      "type": "Edm.Boolean"
+    },
+    "Salutation": {
+      "type": "Edm.String"
+    },
+    "SlickSidebar_AccountAddress__c": {
+      "type": "Edm.String"
+    },
+    "SystemModstamp": {
+      "type": "Edm.DateTimeOffset"
+    },
+    "Title": {
+      "type": "Edm.String"
+    },
+    "URLsrc__c": {
+      "type": "Edm.String"
+    },
+    "grax_Account_Name": {
+      "type": "Edm.String"
+    },
+    "grax_CreatedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_LastModifiedBy_Name": {
+      "type": "Edm.String"
+    },
+    "grax_Owner_Name": {
+      "type": "Edm.String"
+    },
+    "grax_RecordType_Name": {
+      "type": "Edm.String"
+    },
+    "grax_ReportsTo_Name": {
+      "type": "Edm.String"
+    },
+    "grax_account_xf": {
+      "type": "Edm.String"
+    },
+    "grax_contact_name": {
+      "type": "Edm.String"
+    },
+    "grax_contact_xf": {
+      "type": "Edm.String"
+    },
+    "grax_recordtype_xf": {
+      "type": "Edm.String"
+    },
+    "grax_user_xf": {
+      "type": "Edm.String"
+    },
+    "grax_xf": {
+      "type": "Edm.String"
+    },
+    "pi__Needs_Score_Synced__c": {
+      "type": "Edm.Boolean"
+    },
+    "pi__pardot_hard_bounced__c": {
+      "type": "Edm.Boolean"
+    }
+  }
+}
