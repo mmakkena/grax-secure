@@ -16,6 +16,10 @@
     {
       "plan": "scheduler:standard",
       "as": "SCHEDULER"
+    },
+    {
+      "plan": "bucketeer:micro",
+      "as": "BUCKETEER"
     }
   ],
   "env": {
@@ -36,24 +40,8 @@
       "value": "https://test.salesforce.com"
     },
     "DEBUGGING": {
-      "description": "Debugging Flag - Only Turn Off when absolutely needed",
+      "description": "Debugging Flag",
       "value": "true"
-    },
-    "S3ACCESSKEYID":{
-      "description": "S3 Access KeyID",
-      "value": "CHANGE-AFTER-INSTALL"
-    },
-    "S3BUCKET":{
-      "description": "S3 Access KeyID",
-      "value": "CHANGE-AFTER-INSTALL"
-    },
-    "S3REGION":{
-      "description": "S3 Access KeyID",
-      "value": "CHANGE-AFTER-INSTALL"
-    },
-    "S3SECRETACCESSKEY":{
-      "description": "S3 Access KeyID",
-      "value": "CHANGE-AFTER-INSTALL"
     },
     "GRAX_ASYNCH_TIMER":{
       "description": "Asynchronous Timer Interval",
@@ -68,8 +56,24 @@
       "value": "false"
     },
     "GRAX_AUDITTRAIL_OFF":{
-      "description": "Turn off GRAX AuditTrail to Postgres. Leave OFF.",
+      "description": "Leave OFF. Turn off GRAX AuditTrail to Postgres.",
       "value": "true"
+    },
+    "S3ACCESSKEYID":{
+      "description": "S3 Access KeyID : Defaults to Bucketeer if exists",
+      "value": ""
+    },
+    "S3BUCKET":{
+      "description": "S3 Access KeyID : Defaults to Bucketeer if exists",
+      "value": ""
+    },
+    "S3REGION":{
+      "description": "S3 Access KeyID : Defaults to Bucketeer if exists",
+      "value": ""
+    },
+    "S3SECRETACCESSKEY":{
+      "description": "S3 Access KeyID : Defaults to Bucketeer if exists",
+      "value": ""
     }
   }
 }
