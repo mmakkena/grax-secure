@@ -24,16 +24,16 @@
   ],
   "env": {
     "GRAX_SFDC_USERNAME":{
-      "description": "Salesforce Username",
-      "value": "CHANGE-AFTER-INSTALL"
+      "description": "Salesforce Username : Salesforce user for GRAX",
+      "value": ""
     },
     "GRAX_SFDC_PASSWORD":{
-      "description": "Salesforce Password",
-      "value": "CHANGE-AFTER-INSTALL"
+      "description": "Salesforce Password : Salesforce password for GRAX",
+      "value": ""
     },
     "GRAX_SFDC_TOKEN":{
-      "description": "Salesforce Token",
-      "value": "CHANGE-AFTER-INSTALL"
+      "description": "Salesforce Token : Salesforce token for GRAX",
+      "value": ""
     },
     "GRAX_SFDC_URL":{
       "description": "Salesforce URL",
