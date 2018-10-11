@@ -5,6 +5,8 @@ grax-license.json
 # Logs
 logs
 *.log
+
+*.grax.lock
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
