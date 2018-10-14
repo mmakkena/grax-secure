@@ -20,6 +20,10 @@
     {
       "plan": "bucketeer:micro",
       "as": "BUCKETEER"
+    },
+    {
+      "plan": "papertrail:choklad",
+      "as": "PAPERTRAIL"
     }
   ],
   "env": {
