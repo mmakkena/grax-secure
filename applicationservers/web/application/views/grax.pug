@@ -1,0 +1,21 @@
+extends layout
+
+block head
+    link(href='https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.1/jsgrid.min.css', rel='stylesheet')
+    link(href='https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.1/jsgrid-theme.min.css', rel='stylesheet')
+
+block content
+    div
+        label(for='graxobjectstyle') &nbsp;&nbsp;&nbsp;&nbsp; GRAX Data Lake Object &nbsp;&nbsp;&nbsp;&nbsp;
+            - const graxObjects = [{value: 'graxaccountindex'}, {value: 'graxcaseindex'}, {value: 'graxcontactindex'}]
+            select#graxobject(name='graxobject' size='1' required)
+                each graxObject in graxObjects
+                    option(value=(graxObject.value)) #{graxObject.value}
+    <BR/>
+    div#jsGrid
+
+
+block scripts
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.1/jsgrid.min.js')
+    script(src='/grax-app/public/js/grax-data-lake.js')
+
