@@ -18,10 +18,6 @@
       "as": "SCHEDULER"
     },
     {
-      "plan": "bucketeer:micro",
-      "as": "BUCKETEER"
-    },
-    {
       "plan": "papertrail:choklad",
       "as": "PAPERTRAIL"
     }
