@@ -60,24 +60,20 @@
       "value": "true"
     },
     "S3ACCESSKEYID":{
-      "description": "S3 Access KeyID : Defaults to Bucketeer if exists",
-      "value": "",
-      "required":false
+      "description": "S3 Access KeyID",
+      "value": ""
     },
     "S3BUCKET":{
-      "description": "S3 Access KeyID : Defaults to Bucketeer if exists",
-      "value": "",
-      "required":false
+      "description": "S3 Access KeyID",
+      "value": ""
     },
     "S3REGION":{
-      "description": "S3 Access KeyID : Defaults to Bucketeer if exists",
-      "value": "",
-      "required":false
+      "description": "S3 Access KeyID",
+      "value": ""
     },
     "S3SECRETACCESSKEY":{
-      "description": "S3 Access KeyID : Defaults to Bucketeer if exists",
-      "value": "",
-      "required":false
+      "description": "S3 Access KeyID",
+      "value": ""
     }
   }
 }
