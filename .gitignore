@@ -11,6 +11,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+cache/locks/*.lock
+cache/**.lock
+
 applicationservers/salesforce/grax-salesforce/.sfdx/
 applicationservers/salesforce/grax-salesforce/.DS_Store/
 applicationservers/salesforce/grax-salesforce/.sfdx/
