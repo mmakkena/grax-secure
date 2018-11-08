@@ -13,6 +13,7 @@ yarn-error.log*
 
 cache/locks/*.lock
 cache/**.lock
+cache/**
 
 applicationservers/salesforce/grax-salesforce/.sfdx/
 applicationservers/salesforce/grax-salesforce/.DS_Store/
