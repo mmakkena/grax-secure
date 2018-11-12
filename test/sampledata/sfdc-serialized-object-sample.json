@@ -5,6 +5,8 @@
         "type":"Lead",
         "url":"/services/data/v40.0/sobjects/Lead/00Q3900001JKokiEAD"
       },
+      "FieldDoesntExist":false,
+      "FieldDoesntExist99":256,
       "Status":"Open - Not Contacted",
       "LastModifiedDate":"2017-08-31T02:17:02.000+0000",
       "Company":"Sample Company",
