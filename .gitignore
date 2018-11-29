@@ -5,6 +5,11 @@ grax-license.json
 # Logs
 logs
 *.log
+**.csv
+**.zip
+
+utilities/salesforce/*.csv
+utilities/salesforce/**.csv
 
 *.grax.lock
 npm-debug.log*
