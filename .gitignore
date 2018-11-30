@@ -22,7 +22,6 @@ cache/**
 
 applicationservers/salesforce/grax-salesforce/.sfdx/
 applicationservers/salesforce/grax-salesforce/.DS_Store/
-applicationservers/salesforce/grax-salesforce/.sfdx/
 applicationservers/salesforce/grax-salesforce/.project/
 applicationservers/salesforce/grax-salesforce/.salesforce/
 applicationservers/salesforce/grax-salesforce/.settings/
