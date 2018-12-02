@@ -1,12 +1,12 @@
 {
   "name": "GRAX",
   "description": "GRAX Enterprise : Salesforce Data Lake",
-  "repository": "https://github.com/HardingPoint/grax-secure.git",
+  "repository": "https://github.com/HardingPoint/grax.git",
   "website": "https://grax.io",
   "keywords": ["grax","grax.io","salesforce","elastic","S3"],
   "addons": [
     {
-      "plan": "bonsai:business-compute-lg",
+      "plan": "bonsai:shared-30",
       "as": "BONSAI"
     },
     {
@@ -74,6 +74,34 @@
     "S3SECRETACCESSKEY":{
       "description": "S3 Access KeyID",
       "value": ""
+    },
+    "GRAX_DESTINATION_SFDC_PASSWORD":{
+      "description": "Destination Salesforce Password",
+      "value": ""
+    },
+    "GRAX_DESTINATION_SFDC_TOKEN":{
+      "description": "Destination Salesforce Token",
+      "value": ""
+    },
+    "GRAX_DESTINATION_SFDC_URL":{
+      "description": "Destination Salesforce Token",
+      "value": "https://test.salesforce.com"
+    },
+    "GRAX_DESTINATION_SFDC_USERNAME":{
+      "description": "Destination Salesforce Token",
+      "value": "https://test.salesforce.com"
+    },
+    "GRAX_MAX_RESTORE":{
+      "description": "Max Number to Bulk Restore",
+      "value": "1000"
+    },
+    "GRAX_OBJECT_TO_RESTORE":{
+      "description": "Salesforce Object Name to Restore",
+      "value": ""
+    },
+    "GRAX_SYNCHID":{
+      "description": "Salesforce Object Name to Restore",
+      "value": "GRAX_RESTORE"
     }
   }
 }
