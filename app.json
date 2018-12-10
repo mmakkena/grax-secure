@@ -92,7 +92,7 @@
     },
     "GRAX_DESTINATION_SFDC_USERNAME":{
       "description": "Destination Salesforce Token",
-      "value": "https://test.salesforce.com",
+      "value": "",
       "required":false
     },
     "GRAX_MAX_RESTORE":{
