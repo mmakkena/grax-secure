@@ -77,31 +77,38 @@
     },
     "GRAX_DESTINATION_SFDC_PASSWORD":{
       "description": "Destination Salesforce Password",
-      "value": ""
+      "value": "",
+      "required":false
     },
     "GRAX_DESTINATION_SFDC_TOKEN":{
       "description": "Destination Salesforce Token",
-      "value": ""
+      "value": "",
+      "required":false
     },
     "GRAX_DESTINATION_SFDC_URL":{
       "description": "Destination Salesforce Token",
-      "value": "https://test.salesforce.com"
+      "value": "https://test.salesforce.com",
+      "required":false
     },
     "GRAX_DESTINATION_SFDC_USERNAME":{
       "description": "Destination Salesforce Token",
-      "value": "https://test.salesforce.com"
+      "value": "https://test.salesforce.com",
+      "required":false
     },
     "GRAX_MAX_RESTORE":{
       "description": "Max Number to Bulk Restore",
-      "value": "1000"
+      "value": "1000",
+      "required":false
     },
-    "GRAX_OBJECT_TO_RESTORE":{
-      "description": "Salesforce Object Name to Restore",
-      "value": ""
+    "GRAX_OBJECT_TYPES_TO_RESTORE":{
+      "description": "Salesforce Object Types to Restore",
+      "value": "",
+      "required":false
     },
     "GRAX_SYNCHID":{
       "description": "Salesforce Object Name to Restore",
-      "value": "GRAX_RESTORE"
+      "value": "GRAX_RESTORE",
+      "required":false
     }
   }
 }
