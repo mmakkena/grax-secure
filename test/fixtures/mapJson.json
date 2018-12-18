@@ -1,0 +1,21 @@
+{
+  "Case": {
+    "fieldMap": {
+      "Description": ["Subject"]
+    },
+    "00D1I000003nRMaUAM": {
+      "__defaultValues__": {
+        "Status": {
+          "value": "New",
+          "override": true
+        },
+        "Comment": {
+          "value": "No comment supplied"
+        },
+        "AlreadySetDefault": {
+          "value": "coming from the map"
+        }
+      }
+    }
+  }
+}

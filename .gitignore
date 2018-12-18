@@ -8,6 +8,10 @@ logs
 **.csv
 **.zip
 
+
+utilities/salesforce/eventrelations/*.csv
+utilities/salesforce/eventrelations/**.csv
+
 utilities/salesforce/*.csv
 utilities/salesforce/**.csv
 
@@ -85,6 +89,9 @@ typings/
 
 # dotenv environment variables file
 .env
+.env.*
 
 # vscode
 .history
+
+.vscode/*
