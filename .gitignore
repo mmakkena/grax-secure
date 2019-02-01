@@ -14,7 +14,7 @@ utilities/salesforce/eventrelations/**.csv
 
 utilities/salesforce/*.csv
 utilities/salesforce/**.csv
-
+*.env*
 *.grax.lock
 npm-debug.log*
 yarn-debug.log*
@@ -92,6 +92,12 @@ typings/
 .env.*
 
 # vscode
+.vscode/*
 .history
 
-.vscode/*
+# parcel
+.cache
+
+# grax-react
+applicationservers/web/application/graxreact/assets/**
+

@@ -1,0 +1,44 @@
+{
+  "Id": "00P46000002IK94EAG",
+  "IsDeleted": false,
+  "ParentId": "00T46000009tINFEA2",
+  "AccountId": "0014600000lFsR4AAK",
+  "Name": "UCB Pharmaceuticals Visionary Statement.docx",
+  "IsPrivate": false,
+  "BodyLength": 66823,
+  "BodyLengthCompressed": 63486,
+  "OwnerId": "00546000000ULUHAA4",
+  "CreatedDate": "2017-08-14T19:35:57.000+0000",
+  "CreatedById": "00546000000ULUHAA4",
+  "LastModifiedDate": "2017-08-14T19:35:57.000+0000",
+  "LastModifiedById": "00546000000ULUHAA4",
+  "SystemModstamp": "2017-08-14T19:35:57.000+0000",
+  "FeedItemId": "000000000000000AAA",
+  "graxorgid": "00D4600000172yZEAQ",
+  "graxid": "00D4600000172yZEAQ_00P46000001MP5gEAG",
+  "attributes": {
+    "type": "Attachment",
+    "url": "/services/data/v43.0/sobjects/Attachment/00P46000001MP5gEAG"
+  },
+  "grax_attachment_xf": ["00D4600000172yZEAQ_00P46000001MP5gEAG"],
+  "grax_xf": [
+    "00D4600000172yZEAQ_00P46000001MP5gEAG",
+    "00D4600000172yZEAQ_00T46000009tINFEA2",
+    "00D4600000172yZEAQ_00546000000ULUHAA4",
+    "00D4600000172yZEAQ_00546000000ULUHAA4",
+    "00D4600000172yZEAQ_00546000000ULUHAA4"
+  ],
+  "grax_apxtconga4__composer_quickmerge__c_xf": [
+    "00D4600000172yZEAQ_00T46000009tINFEA2"
+  ],
+  "ParentId_grax_xf_apxtconga4__composer_quickmerge__c": "00D4600000172yZEAQ_00T46000009tINFEA2",
+  "grax_user_xf": [
+    "00D4600000172yZEAQ_00546000000ULUHAA4",
+    "00D4600000172yZEAQ_00546000000ULUHAA4",
+    "00D4600000172yZEAQ_00546000000ULUHAA4"
+  ],
+  "OwnerId_grax_xf_user": "00D4600000172yZEAQ_00546000000ULUHAA4",
+  "CreatedById_grax_xf_user": "00D4600000172yZEAQ_00546000000ULUHAA4",
+  "LastModifiedById_grax_xf_user": "00D4600000172yZEAQ_00546000000ULUHAA4",
+  "grax_attachment_name": "UCB Pharmaceuticals Visionary Statement.docx"
+}
