@@ -16,10 +16,6 @@
     {
       "plan": "scheduler:standard",
       "as": "SCHEDULER"
-    },
-    {
-      "plan": "papertrail:choklad",
-      "as": "PAPERTRAIL"
     }
   ],
   "env": {
@@ -60,19 +56,19 @@
       "value": "true"
     },
     "S3ACCESSKEYID":{
-      "description": "S3 Access KeyID",
+      "description": "S3 Access Key",
       "value": ""
     },
     "S3BUCKET":{
-      "description": "S3 Access KeyID",
+      "description": "S3 Bucket Name",
       "value": ""
     },
     "S3REGION":{
-      "description": "S3 Access KeyID",
+      "description": "S3 Region",
       "value": ""
     },
     "S3SECRETACCESSKEY":{
-      "description": "S3 Access KeyID",
+      "description": "S3 Secret Access Key",
       "value": ""
     },
     "GRAX_DESTINATION_SFDC_PASSWORD":{
