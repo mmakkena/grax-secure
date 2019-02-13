@@ -1,0 +1,111 @@
+{
+  "took": 8,
+  "errors": true,
+  "items": [
+    {
+      "update": {
+        "_index": "graxaccountindex",
+        "_type": "graxaccountindex",
+        "_id": "0014600000VpLa3AAF",
+        "status": 404,
+        "error": {
+          "type": "document_missing_exception",
+          "reason": "[graxaccountindex][0014600000VpLa3AAF]: document missing",
+          "index_uuid": "akFwssbMSGumYGCZj4ONLA",
+          "shard": "0",
+          "index": "graxaccountindex"
+        }
+      }
+    },
+    {
+      "update": {
+        "_index": "graxaccountindex",
+        "_type": "graxaccountindex",
+        "_id": "0014600000VpM6dAAF",
+        "status": 404,
+        "error": {
+          "type": "document_missing_exception",
+          "reason": "[graxaccountindex][0014600000VpM6dAAF]: document missing",
+          "index_uuid": "akFwssbMSGumYGCZj4ONLA",
+          "shard": "0",
+          "index": "graxaccountindex"
+        }
+      }
+    },
+    {
+      "update": {
+        "_index": "graxaccountindex",
+        "_type": "graxaccountindex",
+        "_id": "0011I00000C3vEEQAZ",
+        "status": 404,
+        "error": {
+          "type": "document_missing_exception",
+          "reason": "[graxaccountindex][0011I00000C3vEEQAZ]: document missing",
+          "index_uuid": "akFwssbMSGumYGCZj4ONLA",
+          "shard": "0",
+          "index": "graxaccountindex"
+        }
+      }
+    },
+    {
+      "update": {
+        "_index": "graxaccountindex",
+        "_type": "graxaccountindex",
+        "_id": "0014600000VpLa3AAF",
+        "status": 404,
+        "error": {
+          "type": "document_missing_exception",
+          "reason": "[graxaccountindex][0014600000VpLa3AAF]: document missing",
+          "index_uuid": "akFwssbMSGumYGCZj4ONLA",
+          "shard": "0",
+          "index": "graxaccountindex"
+        }
+      }
+    },
+    {
+      "update": {
+        "_index": "graxaccountindex",
+        "_type": "graxaccountindex",
+        "_id": "0014600000VpM6dAAF",
+        "status": 404,
+        "error": {
+          "type": "document_missing_exception",
+          "reason": "[graxaccountindex][0014600000VpM6dAAF]: document missing",
+          "index_uuid": "akFwssbMSGumYGCZj4ONLA",
+          "shard": "0",
+          "index": "graxaccountindex"
+        }
+      }
+    },
+    {
+      "update": {
+        "_index": "graxaccountindex",
+        "_type": "graxaccountindex",
+        "_id": "0011I00000lWJzrQAG",
+        "status": 404,
+        "error": {
+          "type": "document_missing_exception",
+          "reason": "[graxaccountindex][0011I00000lWJzrQAG]: document missing",
+          "index_uuid": "akFwssbMSGumYGCZj4ONLA",
+          "shard": "0",
+          "index": "graxaccountindex"
+        }
+      }
+    },
+    {
+      "update": {
+        "_index": "graxaccountindex",
+        "_type": "graxaccountindex",
+        "_id": "0011I00000lWL7CQAW",
+        "status": 404,
+        "error": {
+          "type": "document_missing_exception",
+          "reason": "[graxaccountindex][0011I00000lWL7CQAW]: document missing",
+          "index_uuid": "akFwssbMSGumYGCZj4ONLA",
+          "shard": "0",
+          "index": "graxaccountindex"
+        }
+      }
+    }
+  ]
+}

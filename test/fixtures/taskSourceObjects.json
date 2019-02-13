@@ -1,0 +1,60 @@
+[
+  {
+    "Id": "00T46000009BdN8EAK",
+    "WhoId": "0034600000TYKqUAAX",
+    "WhatId": "00646000005L5agAAC",
+    "Subject": "Email:Harding Point",
+    "ActivityDate": "2017-05-01",
+    "Status": "Completed",
+    "Priority": "Normal",
+    "OwnerId": "00546000000ULUHAA4",
+    "Description": "To: tokeeffe@symmons.com,bmercurio@symmons.com Good Afternoon Beth and Tim,     Hope you had a great weekend!  It?s day one for me here at Harding Point and I am settling in.  I would like to schedule some time to reconnect with you and fill you in on all the changes.  Happy to come down to Braintree over the next couple weeks.  Please let me know what works for you.       Looking forward to getting together.     Thank You,     Tim Sprissler          Tim Sprissler  Senior Account Executive  tsprissler@hardingpoint.com <mailto:tsprissler@hardingpoint.com>   711 Atlantic Avenue, Boston, MA 02111  Direct: 781-507-5274  www.hardingpoint.com <http://www.hardingpoint.com>            CONFIDENTIALITY NOTICE: This email message and any attachments are confidential and may be privileged and are meant to be read by the intended recipient only. If you are not the intended recipient, please notify sender immediately and destroy all copies of this message and any attachments without reading or disclosing their contents. Thank you.",
+    "Type": "Email",
+    "IsDeleted": false,
+    "AccountId": "0014600000XJwI9AAL",
+    "IsClosed": true,
+    "CreatedDate": "2017-05-01T17:29:04.000+0000",
+    "CreatedById": "00546000000ULUHAA4",
+    "LastModifiedDate": "2017-05-01T17:29:04.000+0000",
+    "LastModifiedById": "00546000000ULUHAA4",
+    "SystemModstamp": "2018-05-06T12:23:05.000+0000",
+    "IsArchived": true,
+    "IsReminderSet": false,
+    "IsRecurrence": false,
+    "graxorgid": "00D4600000172yZEAQ",
+    "graxid": "00D4600000172yZEAQ_00T46000006lM4bEAE",
+    "attributes": {
+      "type": "Task",
+      "url": "/services/data/v43.0/sobjects/Task/00T46000006lM4bEAE"
+    }
+  },
+  {
+    "Id": "00T46000006lMd4EAE",
+    "WhoId": "0034600000TYJRfAAP",
+    "WhatId": "00646000002FPX8AAO",
+    "Subject": "Email:Harding Point Intro",
+    "ActivityDate": "2017-05-01",
+    "Status": "Completed",
+    "Priority": "Normal",
+    "OwnerId": "00546000000ULUHAA4",
+    "Description": "To: lhazen@labcyte.com Hello Lisa,     Hope this email finds you well.  Reaching out to share some news that I hope you will find exciting.  Having completed his commitment to LogMeIn, Joe Gaska has started up a new professional service organization that follows many of the ideals that made Ionia so strong.  It is called Harding Point.  In addition, Joe recently brought me on board to be a Senior Account Executive.       Our main focus is to help companies build and maintain their Salesforce.com environment.  Knowing some of your recent challenges, I believe our new team here at Harding Point is uniquely skilled to help Labcyte improve your Salesforce.com experience.  We can also help you adapt to all the changes around Salesforce.com.  The service model that we have created is conducive to your new purchasing practices that challenged us in the end.  We can adapt to meet your guidelines.       Please let me know if you would be interested in setting up some time to review your current state.  I would bring in Joe Gaska to help understand your current roadmap and challenges to see if our skill set fits your needs.  Please let me know what times may work for you over the next few weeks.      Looking forward to reconnecting.  I truly believe Joe and I can develop a strategy that can maximize your Salesforce.com experience.       Thank You,     Tim Sprissler          Tim Sprissler  Senior Account Executive  tsprissler@hardingpoint.com <mailto:tsprissler@hardingpoint.com>   711 Atlantic Avenue, Boston, MA 02111  Direct: 781-507-5274  www.hardingpoint.com <http://www.hardingpoint.com>            CONFIDENTIALITY NOTICE: This email message and any attachments are confidential and may be privileged and are meant to be read by the intended recipient only. If you are not the intended recipient, please notify sender immediately and destroy all copies of this message and any attachments without reading or disclosing their contents. Thank you.",
+    "Type": "Email",
+    "IsDeleted": false,
+    "AccountId": "0014600000WxrmwAAB",
+    "IsClosed": true,
+    "CreatedDate": "2017-05-01T18:09:56.000+0000",
+    "CreatedById": "00546000000ULUHAA4",
+    "LastModifiedDate": "2017-05-01T18:09:56.000+0000",
+    "LastModifiedById": "00546000000ULUHAA4",
+    "SystemModstamp": "2018-05-06T12:23:05.000+0000",
+    "IsArchived": true,
+    "IsReminderSet": false,
+    "IsRecurrence": false,
+    "graxorgid": "00D4600000172yZEAQ",
+    "graxid": "00D4600000172yZEAQ_00T46000006lMd4EAE",
+    "attributes": {
+      "type": "Task",
+      "url": "/services/data/v43.0/sobjects/Task/00T46000006lMd4EAE"
+    }
+  }
+]

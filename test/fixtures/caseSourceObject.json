@@ -1,0 +1,16 @@
+{
+  "Status": "Closed",
+  "LastModifiedDate": "2017-11-29T17:55:52.000+0000",
+  "IsDeleted": false,
+  "Description": "When my order arrived, the corner of the box was crushed, and the product had visible damage to it.  How would I return this to get a new one?",
+  "CreatedDate": "2017-11-29T17:55:52.000+0000",
+  "AlreadySetDefault": "in source object",
+  "graxid": "00D1I000003nRMaEQA_5001I000001Jf0AQAS",
+  "attributes": {
+    "type": "Case"
+  },
+  "Id": "5001I000001Jf0AQAS",
+  "Subject": "Product damaged, mishandled during shipping.",
+  "destinationorgid": "acme769",
+  "graxorgid": "00D1I000003nRMaEQA"
+}
