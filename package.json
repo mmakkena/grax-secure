@@ -13,7 +13,7 @@
     "grax-meta": "./bin/grax-meta"
   },
   "scripts": {
-    "build": "npm install && npm audit fix && npm run clean && npm run coveralls && npm run graxreact && npm run secure && npm run testsecure",
+    "build": "npm install && npm audit fix && npm run clean && npm run coveralls && npm run graxreact && npm run secure && npm run secure:test",
     "ci": "npm run ci:coveralls",
     "ci:coveralls": "nyc npm run ci:test",
     "ci:test": "NODE_ENV=ci mocha --exit --timeout 100000 lib test",
@@ -24,14 +24,14 @@
     "grax:bulk": "node --max-old-space-size=8192 ./applicationservers/asynch/processor/salesforcebulk.js",
     "grax:bulk:debug": "node inspect --max-old-space-size=8192 ./applicationservers/asynch/processor/salesforcebulk.js",
     "graxreact": "cd ./applicationservers/web/application/graxreact && npm install && npm run build",
-    "test": "NODE_ENV=test mocha --exit --timeout 150000",
-    "test:all": "NODE_ENV=test mocha --exit --timeout 150000 lib test",
-    "testsecure": "cd tmp/grax-secure && npm install && npm run test",
+    "test": "NODE_ENV=test mocha --exit --timeout 200000",
+    "test:all": "NODE_ENV=test mocha --exit --timeout 200000 lib test",
     "test:debug": "NODE_ENV=test mocha --inspect-brk",
     "secure": "grunt copy && grunt obfuscator",
+    "secure:build": "npm run secure:prep && npm install && npm audit fix && npm run graxreact && npm run secure && npm run secure:test && npm run secure:publish",
+    "secure:publish": "cd tmp/grax-secure && git config user.email Support@GRAX.io && git config user.name HardingPoint && git add . && git commit -m 'Update 2.15.19 11:50AM' && git push 'https://4b5eb8b9a06d016e00fe479d129e52beffc08858@github.com/HardingPoint/grax-secure.git' master > /dev/null 2>&1",
     "secure:prep": "rm -rf tmp && mkdir tmp && cd tmp && git clone https://github.com/HardingPoint/grax-secure.git",
-    "secure:commit": "",
-    "secure:build": "npm install && npm audit fix && npm run graxreact && npm run secure && npm run testsecure"
+    "secure:test": "cd tmp/grax-secure && npm install && npm run test"
   },
   "repository": {
     "type": "git",
