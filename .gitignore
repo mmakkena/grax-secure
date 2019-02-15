@@ -1,5 +1,6 @@
 node_modules/
 node_modules/*
+tmp/
 grax-license.json
 
 # Logs
@@ -100,4 +101,3 @@ typings/
 
 # grax-react
 applicationservers/web/application/graxreact/assets/**
-
