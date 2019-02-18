@@ -6,7 +6,7 @@
   "keywords": ["grax","grax.io","salesforce","elastic","S3"],
   "addons": [
     {
-      "plan": "bonsai:shared-30",
+      "plan": "bonsai:sandbox-6",
       "as": "BONSAI"
     },
     {
