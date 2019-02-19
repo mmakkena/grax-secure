@@ -29,7 +29,8 @@
     "test:debug": "NODE_ENV=test mocha --inspect-brk",
     "secure": "grunt copy && grunt obfuscator",
     "secure:build": "npm run secure:prep && npm install && npm audit fix && npm run graxreact && npm run secure && npm run secure:test:ci && npm run secure:publish",
-    "secure:publish": "cd tmp/grax-secure && git config user.email Support@GRAX.io && git config user.name HardingPoint && git config user.token $GH_TOKEN && git add . && git commit -m \"Update based on grax master branch `date`\" && git push origin master > /dev/null 2>&1",
+    "secure:publish": "cd tmp/grax-secure && git config user.email Support@GRAX.io && git config user.name HardingPoint && git config user.token $GH_TOKEN && git add . && git commit -m \"Update based on grax master branch `date`\" && npm run secure:push",
+    "secure:push": "git push origin master > /dev/null 2>&1",
     "secure:prep": "rm -rf tmp && mkdir tmp && cd tmp && git clone https://github.com/HardingPoint/grax-secure.git && find . -type f -name '*.js' -exec rm {} +",
     "secure:test": "cd tmp/grax-secure && npm install && npm run test",
     "secure:test:ci": "cd tmp/grax-secure && npm install && npm run ci:test"
