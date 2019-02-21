@@ -30,7 +30,7 @@
     "secure": "grunt copy && grunt obfuscator",
     "secure:build": "npm run secure:prep && npm install && npm audit fix && npm run graxreact && npm run secure && npm run secure:test:ci && npm run secure:publish",
     "secure:publish": "cd tmp/grax-secure && git config user.email Support@GRAX.io && git config user.name HardingPoint && git add . && git commit -m \"Update based on grax master branch `date`\" && git push origin master",
-    "secure:prep": "rm -rf tmp && mkdir tmp && cd tmp && git clone https://$GH_USERNAME:$GH_TOKEN@github.com/HardingPoint/grax-secure.git && find . -type f -name '*.js' -exec rm {} +",
+    "secure:prep": "rm -rf tmp && mkdir tmp && cd tmp && git clone https://$GH_USERNAME:$GH_TOKEN@github.com/HardingPoint/grax-secure.git && cd grax-secure && find . -type f -name '*.js' -exec rm {} +",
     "secure:test": "cd tmp/grax-secure && npm install && npm run test",
     "secure:test:ci": "cd tmp/grax-secure && npm install && npm run ci:test"
   },
