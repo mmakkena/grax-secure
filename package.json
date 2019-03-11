@@ -13,7 +13,7 @@
     "grax-meta": "./bin/grax-meta"
   },
   "scripts": {
-    "build": "npm install && npm audit fix && npm secure:prep && npm run coveralls && npm run graxreact && npm run secure && npm run secure:test",
+    "dev-build": "npm install && npm audit fix && npm secure:prep && npm run coveralls && npm run graxreact && npm run secure && npm run secure:test",
     "ci": "npm run ci:coveralls",
     "ci:coveralls": "nyc npm run ci:test",
     "ci:test": "NODE_ENV=ci mocha --exit --timeout 200000 lib test",
