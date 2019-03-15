@@ -1,0 +1,62 @@
+{
+  "_index": "graxcontentdocumentindex",
+  "_type": "graxcontentdocument",
+  "_id": "00D4600000172yZEAQ_06946000002gkQ6AAI",
+  "_version": 6,
+  "_score": 2.4849067,
+  "_source": {
+    "doc": {
+      "GRAX_Status": "Ready to Process",
+      "GRAX_Data_Record_Id": "a0Z46000004L8enEAC",
+      "GRAX_Execution_Unique_Key": "uiLOpL7DzNcPM7Nz5M0=",
+      "attributes": {
+        "type": "ContentDocument",
+        "url": "/services/data/v44.0/sobjects/ContentDocument/06946000002gkQ6AAI"
+      },
+      "Id": "06946000002gkQ6AAI",
+      "CreatedById": "00546000001MC4ZAAW",
+      "CreatedDate": "2019-02-08T14:40:27.000+0000",
+      "LastModifiedById": "00546000001MC4ZAAW",
+      "LastModifiedDate": "2019-02-08T14:40:27.000+0000",
+      "IsArchived": false,
+      "IsDeleted": false,
+      "OwnerId": "00546000001MC4ZAAW",
+      "SystemModstamp": "2019-02-08T14:40:28.000+0000",
+      "Title": "spouting-whale",
+      "PublishStatus": "P",
+      "LatestPublishedVersionId": "06846000002lphxAAA",
+      "LastViewedDate": "2019-02-08T14:47:04.000+0000",
+      "LastReferencedDate": "2019-02-08T14:47:04.000+0000",
+      "ContentSize": 53973,
+      "FileType": "PNG",
+      "FileExtension": "png",
+      "SharingOption": "A",
+      "SharingPrivacy": "N",
+      "ContentModifiedDate": "2019-02-08T14:40:27.000+0000",
+      "GRAXCompanyName": "Harding Point",
+      "graxorgid": "00D4600000172yZEAQ",
+      "graxid": "00D4600000172yZEAQ_06946000002gkQ6AAI",
+      "grax_contentdocument_xf": ["00D4600000172yZEAQ_06946000002gkQ6AAI"],
+      "grax_xf": ["00D4600000172yZEAQ_06946000002gkQ6AAI"]
+    }
+  },
+  "fields": {
+    "doc.CreatedDate": ["2019-02-08T14:40:27.000Z"],
+    "doc.LastModifiedDate": ["2019-02-08T14:40:27.000Z"],
+    "doc.ContentModifiedDate": ["2019-02-08T14:40:27.000Z"],
+    "doc.LastViewedDate": ["2019-02-08T14:47:04.000Z"],
+    "doc.LastReferencedDate": ["2019-02-08T14:47:04.000Z"],
+    "doc.SystemModstamp": ["2019-02-08T14:40:28.000Z"]
+  },
+  "highlight": {
+    "doc.attributes.url": [
+      "/services/data/v44.0/sobjects/ContentDocument/@kibana-highlighted-field@06946000002gkQ6AAI@/kibana-highlighted-field@"
+    ],
+    "doc.Id.keyword": [
+      "@kibana-highlighted-field@06946000002gkQ6AAI@/kibana-highlighted-field@"
+    ],
+    "doc.Id": [
+      "@kibana-highlighted-field@06946000002gkQ6AAI@/kibana-highlighted-field@"
+    ]
+  }
+}

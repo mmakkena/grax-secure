@@ -1,0 +1,73 @@
+{
+  "_index": "graxcontentversionindex",
+  "_type": "graxcontentversion",
+  "_id": "00D4600000172yZEAQ_06846000002lphxAAA",
+  "_source": {
+    "doc": {
+      "grax_LastModifiedBy_Name": "HP Integration User",
+      "grax_CreatedBy_Name": "HP Integration User",
+      "grax_Owner_Name": "HP Integration User",
+      "grax_ContentModifiedBy_Name": "HP Integration User",
+      "grax_ContentDocument_Title": "spouting-whale",
+      "GRAXCompanyName": "Harding Point",
+      "attributes": {
+        "type": "ContentVersion",
+        "url": "/services/data/v44.0/sobjects/ContentVersion/06846000002lphxAAA"
+      },
+      "Id": "06846000002lphxAAA",
+      "ContentDocumentId": "06946000002gkQ6AAI",
+      "IsLatest": true,
+      "ContentBodyId": "05T4600000FdwzZEAR",
+      "VersionNumber": "1",
+      "Title": "spouting-whale",
+      "SharingOption": "A",
+      "SharingPrivacy": "N",
+      "PathOnClient": "spouting-whale.png",
+      "RatingCount": 0,
+      "IsDeleted": false,
+      "ContentModifiedDate": "2019-02-08T14:40:27.000+0000",
+      "ContentModifiedById": "00546000001MC4ZAAW",
+      "PositiveRatingCount": 0,
+      "NegativeRatingCount": 0,
+      "OwnerId": "00546000001MC4ZAAW",
+      "CreatedById": "00546000001MC4ZAAW",
+      "CreatedDate": "2019-02-08T14:40:27.000+0000",
+      "LastModifiedById": "00546000001MC4ZAAW",
+      "LastModifiedDate": "2019-02-08T14:40:27.000+0000",
+      "SystemModstamp": "2019-02-08T14:40:28.000+0000",
+      "FileType": "PNG",
+      "PublishStatus": "P",
+      "ContentSize": 53973,
+      "FileExtension": "png",
+      "FirstPublishLocationId": "0014600001b6c1CAAQ",
+      "Origin": "C",
+      "ContentLocation": "S",
+      "Checksum": "29e14480ab024677542a3dabb3884846",
+      "IsMajorVersion": false,
+      "IsAssetEnabled": false,
+      "GRAX_Execution_Unique_Key": "uiLOpL7DzNcPM7Nz5M0=",
+      "GRAX_Data_Record_Id": "a0Z46000004L8elEAC",
+      "GRAX_Status": "Sent to GRAX",
+      "graxorgid": "00D4600000172yZEAQ",
+      "graxid": "00D4600000172yZEAQ_06846000002lphxAAA",
+      "grax_contentversion_xf": ["00D4600000172yZEAQ_06846000002lphxAAA"],
+      "grax_xf": ["00D4600000172yZEAQ_06846000002lphxAAA"],
+      "graxfilename": "grax/audittrail/salesforce/00D4600000172yZEAQ/ContentVersion/06846000002lphxAAA/files/06846000002lphxAAA",
+      "objecttype": "ContentVersion"
+    }
+  },
+  "fields": {
+    "doc.CreatedDate": ["2019-02-08T14:40:27.000Z"],
+    "doc.LastModifiedDate": ["2019-02-08T14:40:27.000Z"],
+    "doc.ContentModifiedDate": ["2019-02-08T14:40:27.000Z"],
+    "doc.SystemModstamp": ["2019-02-08T14:40:28.000Z"]
+  },
+  "highlight": {
+    "doc.Title": [
+      "spouting-@kibana-highlighted-field@whale@/kibana-highlighted-field@"
+    ],
+    "doc.grax_ContentDocument_Title": [
+      "spouting-@kibana-highlighted-field@whale@/kibana-highlighted-field@"
+    ]
+  }
+}
